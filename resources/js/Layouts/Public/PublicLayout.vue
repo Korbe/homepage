@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-full bg-zinc-50 dark:bg-black">
+    <div class="flex h-full bg-zinc-200 dark:bg-black">
         <div className="flex w-full">
 
             <div className="fixed inset-0 flex justify-center sm:px-8">
