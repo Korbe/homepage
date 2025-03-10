@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('Public/Home', [
+    return Inertia::render('Public/Home/Home', [
         'canLogin' => Route::has('login'),
         'canRegister' => false, //Route::has('register')
     ]);
