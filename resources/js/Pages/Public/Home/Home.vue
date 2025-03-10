@@ -8,9 +8,7 @@
           <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-          <div class="mt-6 flex gap-6">
-            <!-- Programming Language Links -->
-          </div>
+          <SkillsBadge />
         </div>
         
         <Photos />
@@ -23,4 +21,5 @@
   import Container from "@/Components/Container.vue";
   import PublicLayout from "@/Layouts/Public/PublicLayout.vue";
   import Photos from "./Partials/Photos.vue";
+import SkillsBadge from "./Partials/SkillsBadge.vue";
   </script>
