@@ -6,11 +6,6 @@
     display: none;
 }
 
-html, body, #app {
-    height: 100%;
-}
-
-
 @plugin '@tailwindcss/typography';
 /* @config '../js/typography.js'; */
 

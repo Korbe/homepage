@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en" class="h-full antialiased dark">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -15,7 +16,7 @@
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
     </head>
-    <body class="font-sans antialiased">
+    <body class="flex h-full bg-zinc-50 dark:bg-black overflow-y-auto">
         @inertia
     </body>
 </html>
