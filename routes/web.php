@@ -4,12 +4,12 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('Public/Home/Home', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => false, //Route::has('register')
-    ]);
+    return Inertia::render('Public/Home/Home');
 });
 
+Route::get('/about', function () {
+    return Inertia::render('Public/About/About');
+});
 
 Route::get('/projects', function () {
     return Inertia::render('Public/Projects/Projects');

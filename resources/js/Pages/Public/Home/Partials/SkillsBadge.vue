@@ -10,7 +10,7 @@
                     'hover:text-blue-500': skill.color === 'text-blue-500',
                     'hover:text-red-500': skill.color === 'text-red-500',
                     'hover:text-green-500': skill.color === 'text-green-500',
-                    'hover:text-sky-600': skill.color === 'text-sky-600',
+                    'hover:text-sky-400': skill.color === 'text-sky-400',
                     'hover:text-red-600': skill.color === 'text-red-600',
                     'hover:text-yellow-500': skill.color === 'text-yellow-500',
                     'hover:text-orange-500': skill.color === 'text-orange-500',
@@ -54,8 +54,8 @@ const skills = [
     },
     {
         icon: "",
-        name: "TailwindCSS",
-        color: "text-sky-600",
+        name: "Tailwindcss",
+        color: "text-sky-400",
     },
     {
         icon: "fa-angular",
