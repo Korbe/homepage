@@ -19,7 +19,5 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const { large = false, className, ... props} = defineProps(['large', 'className'])
 </script>

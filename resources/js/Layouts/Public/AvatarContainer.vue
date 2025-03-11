@@ -11,7 +11,5 @@
   </template>
   
   <script setup>
-  import { defineProps } from 'vue'
-  
   const { className, ...props } = defineProps(['className'])
   </script>
