@@ -5,10 +5,10 @@
       @click="toggleTheme">
       
       <SunIcon v-if="resolvedTheme === 'light'"
-          class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700" />
+          class="cursor-pointer h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700" />
       
       <MoonIcon v-else
-          class="h-6 w-6 fill-zinc-700 stroke-zinc-500 transition group-hover:stroke-zinc-400" />
+          class="cursor-pointer h-6 w-6 fill-zinc-700 stroke-zinc-500 transition group-hover:stroke-zinc-400" />
   </button>
 </template>
 
