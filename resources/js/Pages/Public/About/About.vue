@@ -1,0 +1,73 @@
+<script setup>
+import Container from '@/Components/Container.vue';
+import PublicLayout from '@/Layouts/Public/PublicLayout.vue';
+import SocialLinks from './Partials/SocialLinks.vue';
+import ContactLinks from './Partials/ContactLinks.vue';
+</script>
+
+<template>
+    <PublicLayout title="About">
+        <Container class="mt-16 sm:mt-32">
+            <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
+                <div class="lg:pl-4">
+                    <div class="max-w-xs px-2.5 lg:max-w-none">
+                        <img src="/images/me.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
+                            class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" />
+                    </div>
+                </div>
+                <div class="lg:order-first lg:row-span-2">
+                    <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                        Ich bin Ing. Lukas Korbitsch. Aus Villach und bringe Code zum Leben.
+                    </h1>
+                    <div class="mt-6 space-y-7 text-lg text-zinc-600 dark:text-zinc-400">
+                        <p>
+                            Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war Anno 1701. Schon damals
+                            war ich fasziniert von Computern, auch wenn ich noch nicht wusste, welchen Weg ich später
+                            einschlagen würde.
+                        </p>
+                        <p>
+                            Während meiner Schulzeit an der HTL Villach entdeckte ich meine Leidenschaft für das
+                            Programmieren. Heute liebe ich es, Software zu entwickeln - auch wenn es manchmal
+                            herausfordernd sein kann. Doch genau das reizt mich: Dinge zu automatisieren, Prozesse zum
+                            Leben zu erwecken und kreative Lösungen zu finden.
+                        </p>
+                        <p>
+                            Neben der Softwareentwicklung helfe ich auch gerne anderen mit ihren technischen Fragen -
+                            sei es beim PC, Smartphone, Kaufempfehlungen oder sogar bei der Erstellung von Websites.
+                            Dabei arbeite ich nicht mit Baukastensystemen, sondern entwickle <b>maßgeschneiderte
+                                Webapps</b>.
+                            Jede von ihnen ist ein handgefertigtes Unikat, das genau auf die Wünsche und Anforderungen
+                            des Nutzers zugeschnitten ist. Webapps sehen aus und verhalten sich wie klassische Apps,
+                            sind aber technisch gesehen Websites - mit allen Vorteilen, die das mit sich bringt.
+                        </p>
+                        <p>
+                            In meiner Freizeit widme ich mich gerne meinen anderen Leidenschaften: <b>Programmieren</b>
+                            (wenig
+                            überraschend 😉), <b>Pflanzen</b>, <b>Computerspielen</b> und <b>Outdoor-Aktivitäten</b>.
+                            Ich liebe es, Pflanzen
+                            über die Zeit wachsen zu sehen – vom perfekten Substrat-Mix bis zum richtigen Pflegeschnitt
+                            übernehme ich alles selbst. Beim <b>Gaming</b> kann ich in spannende Welten eintauchen, mich
+                            herausfordern und einfach abschalten.
+                        </p>
+                        <p>
+                            Zum Ausgleich zum vielen Sitzen im Büro und beim Programmieren gehe ich regelmäßig ins
+                            <b>Fitnessstudio</b>. Außerdem bin ich gerne <b>draußen in der Natur</b>, sei es beim
+                            <b>Camping in meiner
+                                Hängematte</b>, bei Spaziergängen oder einfach, um frische Luft zu schnappen. Besonders
+                            wichtig
+                            sind mir auch <b>Treffen mit Freunden</b>, denn gute Gespräche und gemeinsame Erlebnisse
+                            gehören
+                            für mich genauso zum Leben dazu.
+                        </p>
+                    </div>
+                </div>
+                <div class="lg:pl-20">
+                    <ul role="list">
+                        <SocialLinks />
+                        <ContactLinks />
+                    </ul>
+                </div>
+            </div>
+        </Container>
+    </PublicLayout>
+</template>
