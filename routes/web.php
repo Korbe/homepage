@@ -10,6 +10,12 @@ Route::get('/', function () {
     ]);
 });
 
+
+Route::get('/projects', function () {
+    return Inertia::render('Public/Projects/Projects');
+});
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
