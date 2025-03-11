@@ -60,12 +60,7 @@ const isHomePage = ref(window.location.pathname === '/');
 const headerRef = ref(null);
 const avatarRef = ref(null);
 const isInitial = ref(true);
-const isAnimating = ref(false);
 let lastScrollY = 0;
-
-
-console.log("ishome", isHomePage.value
-)
 
 const setProperty = (property, value) => {
     document.documentElement.style.setProperty(property, value);
@@ -75,15 +70,9 @@ const removeProperty = (property) => {
     document.documentElement.style.removeProperty(property);
 };
 
-const clamp = (number, min, max) => Math.min(Math.max(number, min), max);
-
 const updateHeaderStyles = () => {
 
-
-
     if (!headerRef.value) return;
-
-
 
     const { top, height } = headerRef.value.getBoundingClientRect();
     const scrollY = document.getElementById("app").scrollY;
@@ -181,140 +170,4 @@ onBeforeUnmount(() => {
     document.getElementById("app").removeEventListener('scroll', updateStyles);
     document.getElementById("app").removeEventListener('resize', updateStyles);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const updateHeaderStyles = () => {
-//     // Verhindere wiederholte Berechnungen, wenn sich der Scrollwert nicht geändert hat
-//     const app = document.getElementById('app');
-//     if (!headerRef.value || !app) return;
-
-//     const { top, height } = headerRef.value.getBoundingClientRect();
-//     const maxScroll = Math.max(app.scrollHeight - app.clientHeight, 0);
-//     const scrollY = clamp(app.scrollTop || 0, 0, maxScroll);
-
-//     // Nur aktualisieren, wenn der Scrollwert sich geändert hat
-//     if (scrollY === lastScrollY) return;
-//     lastScrollY = scrollY;
-
-//     if (isAnimating.value) return; // Verhindere Berechnungen während der Animation
-
-//     isAnimating.value = true;
-
-//     const downDelay = avatarRef.value?.offsetTop || 0;
-//     const upDelay = 64;
-
-//     if (isInitial.value) {
-//         setProperty('--header-position', 'sticky');
-//     }
-
-//     setProperty('--content-offset', `${downDelay}px`);
-
-//     // Berechne die Header-Höhe basierend auf der Scroll-Position
-//     if (isInitial.value || scrollY < downDelay) {
-//         setProperty('--header-height', `${downDelay + height}px`);
-//         setProperty('--header-mb', `${-downDelay}px`);
-//     } else if (top + height < -upDelay) {
-//         const offset = Math.max(height, scrollY - upDelay);
-//         setProperty('--header-height', `${offset}px`);
-//         setProperty('--header-mb', `${height - offset}px`);
-//     } else if (top === 0) {
-//         setProperty('--header-height', `${scrollY + height}px`);
-//         setProperty('--header-mb', `${-scrollY}px`);
-//     }
-
-//     // Überprüfe, ob der Header fixiert werden soll
-//     if (top === 0 && scrollY > 0 && scrollY >= downDelay) {
-//         setProperty('--header-inner-position', 'fixed');
-//         removeProperty('--header-top');
-//         removeProperty('--avatar-top');
-//     } else {
-//         removeProperty('--header-inner-position');
-//         setProperty('--header-top', '0px');
-//         setProperty('--avatar-top', '0px');
-//     }
-
-//     // Animation abgeschlossen, nun erlauben wir die nächste Berechnung
-//     isAnimating.value = false;
-// };
-
-// // Funktion zum Aktualisieren der Avatar-Styles
-// const updateAvatarStyles = () => {
-//     if (!isHomePage.value || !avatarRef.value) return;
-
-//     const downDelay = avatarRef.value.offsetTop || 0; // Abstand vom Avatar zum oberen Rand
-//     const fromScale = 1.5; // Anfangsgröße des Avatars (größer)
-//     const toScale = 0.5;  // Endgröße des Avatars (kleiner)
-//     const fromX = 0; // Start-Translation in X
-//     const toX = 2 / 16; // End-Translation in X
-//     const scrollY = document.getElementById("app").scrollTop || 0; // Scroll-Position des Containers
-
-//     // Berechnung der Skalierung (vom Großen zum Kleinen)
-//     let scale = fromScale - (scrollY / downDelay) * (fromScale - toScale);
-
-//     // Begrenzung der Skalierung: Der Avatar soll nie kleiner als `toScale` werden
-//     scale = Math.max(scale, toScale);
-
-//     // Berechnung der X-Translation (Avatar bewegt sich in X-Richtung)
-//     let x = (scrollY * (fromX - toX)) / downDelay + toX;
-//     x = Math.min(Math.max(x, toX), fromX); // Begrenzen der X-Translation
-
-//     // Anwenden der Transformation auf das Avatar-Element
-//     setProperty(
-//         '--avatar-image-transform',
-//         `translate3d(${x}rem, 0, 0) scale(${scale})` // Avatar wird skaliert und verschoben
-//     );
-
-//     // Berechnung der Border-Transformation
-//     const borderScale = 1 / (fromScale / scale);
-//     const borderX = (-toX + x) * borderScale;
-//     const borderTransform = `translate3d(${borderX}rem, 0, 0) scale(${borderScale})`;
-
-//     // Anwenden der Border-Transformation
-//     setProperty('--avatar-border-transform', borderTransform);
-
-//     // Anpassung der Opazität der Border basierend auf der Skalierung
-//     setProperty('--avatar-border-opacity', scale === toScale ? '1' : '0');
-// };
-
-// const updateStyles = () => {
-//     console.log("updateing");
-//     updateHeaderStyles();
-//     updateAvatarStyles();
-//     isInitial.value = false;
-// };
-
-// // Setze Event-Listener beim Mount
-// onMounted(() => {
-//     updateStyles();
-//     const appElement = document.getElementById('app');
-//     if (appElement) {
-//         appElement.addEventListener('scroll', () => {
-//             requestAnimationFrame(updateStyles);
-//         });
-//         appElement.addEventListener('resize', () => {
-//             requestAnimationFrame(updateStyles);
-//         });
-//     }
-// });
-
-// // Entferne Event-Listener beim Unmount
-// onBeforeUnmount(() => {
-//     const appElement = document.getElementById('app');
-//     if (appElement) {
-//         appElement.removeEventListener('scroll', updateStyles);
-//         appElement.removeEventListener('resize', updateStyles);
-//     }
-// });
 </script>

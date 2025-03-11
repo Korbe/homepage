@@ -1,5 +1,4 @@
 <template>
-  <!-- Wir verwenden v-bind, um dynamische Klassen und Styles zu binden -->
   <div v-bind="{ class: ['sm:px-8', props.class], style }">
     <div class="mx-auto w-full max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
