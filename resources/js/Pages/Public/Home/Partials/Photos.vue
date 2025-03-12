@@ -1,32 +1,66 @@
 <template>
-  <div class="relative my-16 sm:my-20 h-60 md:h-96">
-    <div class="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8 absolute left-1/2 transform -translate-x-1/2 h-60 md:h-96">
-      <div
-        v-for="(image, imageIndex) in images"
-        :key="image.src"
-        :class="[
-          'relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl dark:bg-zinc-800 hover:rotate-0 transition-transform duration-300',
-          rotations[imageIndex % rotations.length]
-        ]"
-      >
-        <img
-          :src="image.src"
-          alt=""
-          sizes="(min-width: 640px) 18rem, 11rem"
-          class="h-full w-full object-cover"
-        />
+  <div class="relative my-16 sm:my-20 h-60 md:h-96 w-full overflow-hidden">
+    <div ref="scrollContainer" class="h-full w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth">
+      <div class="flex h-60 md:h-96 w-fit mx-auto">
+        <!-- Unsichtbares Padding-Element für Zentrierung -->
+        <div class="flex-none w-[calc(50%-11rem)] sm:w-[calc(50%-18rem)]"></div>
+
+        <div v-for="(image, imageIndex) in images" :key="image.src" :class="[ 
+            'relative aspect-9/10 flex-none overflow-hidden rounded-xl w-44 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 hover:rotate-0 transition-transform duration-300 snap-center mx-2.5 sm:mx-4', 
+            rotations[imageIndex % rotations.length]
+          ]">
+          <img :src="image.src" alt="" sizes="(min-width: 640px) 18rem, 11rem" class="h-full w-full object-cover" />
+        </div>
+
+        <!-- Unsichtbares Padding-Element für Zentrierung -->
+        <div class="flex-none w-[calc(50%-11rem)] sm:w-[calc(50%-18rem)]"></div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref, onMounted, nextTick } from 'vue';
+
+const scrollContainer = ref(null);
 const rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2'];
 const images = [
-  { src: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=2747&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { src: 'https://images.pexels.com/photos/213727/pexels-photo-213727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { src: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { src: 'https://images.pexels.com/photos/4963437/pexels-photo-4963437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { src: 'https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { src: '/images/gaming.jpg' },
+  { src: '/images/plant.jpg' },
+  { src: '/images/code.jpg' },
+  { src: '/images/handshake.jpg' },
+  { src: '/images/fitness.jpg' },
 ];
+onMounted(() => {
+  nextTick(() => {
+    if (scrollContainer.value) {
+      const imageElements = [...scrollContainer.value.children[0].children].filter(el => el.tagName === 'DIV' && el.classList.contains('relative'));
+      
+      const thirdImage = imageElements[2];
+      
+      if (thirdImage) {
+        const containerWidth = scrollContainer.value.clientWidth;
+        const imageCenter = thirdImage.offsetLeft + thirdImage.clientWidth / 2;
+        const scrollPosition = imageCenter - containerWidth / 2;
+
+        scrollContainer.value.scrollTo({
+          left: scrollPosition,
+          behavior: 'smooth',
+        });
+      }
+    }
+  });
+});
 </script>
+
+<style scoped>
+/* Versteckt die Scrollbar, aber behält die Scrollfunktionalität */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE und Edge */
+  scrollbar-width: none;      /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari und Opera */
+}
+</style>
