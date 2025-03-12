@@ -6,10 +6,14 @@
       <Welcome />
     </Container>
 
+    <Photos />
 
-      <Photos />
+    <Container class="mt-16">
+      <SkillsBadge />
 
+      <Testimonial />
     </Container>
+
   </PublicLayout>
 </template>
 
@@ -18,4 +22,6 @@ import Container from "@/Components/Container.vue";
 import PublicLayout from "@/Layouts/Public/PublicLayout.vue";
 import Photos from "./Partials/Photos.vue";
 import SkillsBadge from "./Partials/SkillsBadge.vue";
+import Testimonial from "./Partials/Testimonial.vue";
+import Welcome from "./Partials/Welcome.vue";
 </script>
