@@ -13,7 +13,7 @@
                                 <Link href="/projects">Projects</Link>
                             </div>
                             <p class="text-sm text-zinc-400 dark:text-zinc-500">
-                                &copy; {{ new Date().getFullYear() }} Lukas Korbitsch. All rights
+                                &copy; {{ new Date().getFullYear() }} Ing. Lukas Korbitsch. All rights
                                 reserved.
                             </p>
                         </div>
