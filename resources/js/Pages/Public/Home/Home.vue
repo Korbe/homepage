@@ -12,6 +12,11 @@
           Outdoor-Aktivitäten.
         </p>
         <SkillsBadge />
+        <!-- <Link class="text-zinc-600 dark:dark:text-zinc-100 py-3 px-5 border rounded-3xl " :href="route('public.about')">
+          Mehr über mich
+        </Link> -->
+
+
       </div>
 
       <Photos />
