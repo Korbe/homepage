@@ -80,8 +80,6 @@ const updateHeaderStyles = () => {
     if (scrollY === lastScrollY) return;
     lastScrollY = scrollY;
 
-    console.log("hello");
-
     const downDelay = avatarRef.value?.offsetTop || 0;
     const upDelay = 64;
 
