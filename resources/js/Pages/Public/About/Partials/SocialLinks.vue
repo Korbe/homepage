@@ -11,7 +11,7 @@
 <script setup>
 const socialLinks = [
   { href: "https://github.com/Korbe", icon: "fab fa-github", text: "Github" },
-  { href: "https://www.instagram.com/k0rbe", icon: "fab fa-instagram", text: "Instagram" },
   { href: "https://www.linkedin.com/in/lukas-korbitsch", icon: "fab fa-linkedin", text: "LinkedIn" },
+  { href: "https://www.instagram.com/k0rbe", icon: "fab fa-instagram", text: "Instagram" },
 ];
 </script>

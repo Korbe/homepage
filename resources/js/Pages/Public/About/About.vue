@@ -6,7 +6,7 @@ import ContactLinks from './Partials/ContactLinks.vue';
 </script>
 
 <template>
-    <PublicLayout title="About">
+    <PublicLayout title="Über mich">
         <Container class="mt-16 sm:mt-32">
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-4">
@@ -21,21 +21,23 @@ import ContactLinks from './Partials/ContactLinks.vue';
                     </h1>
                     <div class="mt-6 space-y-7 text-lg text-zinc-600 dark:text-zinc-400">
                         <p>
-                            Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war Anno 1701. Schon damals
+                            Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war <b>Anno 1701</b>. Schon damals
                             war ich fasziniert von Computern, auch wenn ich noch nicht wusste, welchen Weg ich später
                             einschlagen würde.
                         </p>
                         <p>
-                            Während meiner Schulzeit an der HTL Villach entdeckte ich meine Leidenschaft für das
+                            Während meiner Schulzeit an der <a class="underline" target="_blank" href="https://www.htl-villach.at/"><b>HTL Villach</b></a> entdeckte ich meine Leidenschaft für das
                             Programmieren. Heute liebe ich es, Software zu entwickeln - auch wenn es manchmal
                             herausfordernd sein kann. Doch genau das reizt mich: Dinge zu automatisieren, Prozesse zum
                             Leben zu erwecken und kreative Lösungen zu finden.
                         </p>
                         <p>
-                            Neben der Softwareentwicklung helfe ich auch gerne anderen mit ihren technischen Fragen -
+                            Derzeit bin ich Vollzeit Angestellter bei <a class="underline" target="_blank" href="https://software-cube.at"><b>SoftwareCUBE</b></a> und 
+                            arbeite für <a class="underline" target="_blank" href="https://www.infineon.com/cms/de/"><b>Infineon Technologies</b></a> an 
+                            diversen Projekten in der Hochautomatisierung. Neben meiner Tätigkeit in der Softwareentwicklung helfe 
+                            ich auch gerne anderen mit ihren technischen Fragen -
                             sei es beim PC, Smartphone, Kaufempfehlungen oder sogar bei der Erstellung von Websites.
-                            Dabei arbeite ich nicht mit Baukastensystemen, sondern entwickle <b>maßgeschneiderte
-                                Webapps</b>.
+                            Dabei arbeite ich nicht mit Baukastensystemen, sondern entwickle <b>maßgeschneiderte Webapps</b>.
                             Jede von ihnen ist ein handgefertigtes Unikat, das genau auf die Wünsche und Anforderungen
                             des Nutzers zugeschnitten ist. Webapps sehen aus und verhalten sich wie klassische Apps,
                             sind aber technisch gesehen Websites - mit allen Vorteilen, die das mit sich bringt.

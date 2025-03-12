@@ -50,10 +50,10 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import MobileNavigation from './MobileNavigation.vue'; // Assuming MobileNavigation component exists
-import DesktopNavigation from './DesktopNavigation.vue'; // Assuming DesktopNavigation component exists
-import ThemeToggle from './ThemeToggle.vue'; // Assuming ThemeToggle component exists
-import Avatar from './Avatar.vue'; // Assuming Avatar component exists
+import MobileNavigation from './MobileNavigation.vue'; 
+import DesktopNavigation from './DesktopNavigation.vue'; 
+import ThemeToggle from './ThemeToggle.vue'; 
+import Avatar from './Avatar.vue';
 import Container from '@/Components/Container.vue';
 
 const isHomePage = ref(window.location.pathname === '/');

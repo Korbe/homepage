@@ -7,11 +7,11 @@
             class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white ring-1 shadow-md shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
 
             <!-- Displays the project logo if available -->
-            <img v-if="project.logo" :src="project.logo" alt="" style="color: transparent;" loading="lazy" width="32"
-                height="32" decoding="async" data-nimg="1" class="h-8 w-8 rounded-full object-contain" />
+                <img v-if="project.logo" :src="project.logo" alt="" style="color: transparent;" loading="lazy" width="32"
+                    height="32" decoding="async" data-nimg="1" class="h-8 w-8 rounded-full object-contain" />
 
-            <!-- If no logo is available, render the project's icon -->
-            <component v-else :is="project.icon" class="h-6 w-6 text-zinc-600 dark:text-zinc-200" />
+                <!-- If no logo is available, render the project's icon -->
+                <component v-else :is="project.icon" class="h-6 w-6 text-zinc-600 dark:text-zinc-200" />
         </div>
 
         <!-- Project title with hover effect -->
@@ -40,8 +40,8 @@
             { 'group-hover:text-yellow-500': tech.color === 'text-yellow-500' },
             { 'group-hover:text-orange-500': tech.color === 'text-orange-500' }
         ]">
-                <i :class="['text-2xl fab', tech.icon]"></i>
-                <span class="ml-2">{{ tech.name }}</span>
+                <i v-if="tech.icon" :class="['mr-2 text-2xl fab', tech.icon]"></i>
+                <span>{{ tech.name }}</span>
             </div>
         </div>
 
@@ -50,7 +50,7 @@
 
         <!-- Project links -->
         <a v-for="link in project.links" :key="link.href"
-            class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition hover:text-teal-500 dark:text-zinc-200"
+            class="relative z-10 mt-6 flex text-sm font-medium text-zinc-600 transition hover:text-teal-500 dark:text-zinc-200"
             :href="link.href" target="_blank">
             <LinkIcon class="h-6 w-6 flex-none" />
             <span class="ml-2">{{ link.label }}</span>
