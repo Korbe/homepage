@@ -23,6 +23,7 @@
       </div>
       <nav class="mt-6">
         <ul class="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
+          <MobileNavItem href="/">Home</MobileNavItem>
           <MobileNavItem href="/about">About</MobileNavItem>
           <MobileNavItem href="/projects">Projekte</MobileNavItem>
           <MobileNavItem href="/uses">Techstack</MobileNavItem>
@@ -37,7 +38,4 @@ import { defineProps } from 'vue'
 import MobileNavItem from './MobileNavItem.vue'
 import { Popover, PopoverButton, PopoverOverlay, PopoverPanel } from '@headlessui/vue'
 import { XMarkIcon, ChevronDownIcon } from '@heroicons/vue/24/outline'
-
-
-const props = defineProps()
 </script>
