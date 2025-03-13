@@ -15,6 +15,10 @@ Route::get('/projects', function () {
     return Inertia::render('Public/Projects/Projects');
 })->name("public.projects");
 
+Route::get('/uses', function () {
+    return Inertia::render('Public/Uses/Uses');
+})->name("public.uses");
+
 
 Route::middleware([
     'auth:sanctum',
