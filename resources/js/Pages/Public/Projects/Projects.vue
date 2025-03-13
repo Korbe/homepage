@@ -6,7 +6,8 @@
                     Ideen, die ich zum Leben erweckt habe.
                 </h1>
                 <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                    Abseits von meinen beruflichen Projekten habe ich über die Jahre an vielen kleinen Projekten gearbeitet. Hier sind diejenigen, auf die ich
+                    Abseits von meinen beruflichen Projekten habe ich über die Jahre an vielen kleinen Projekten
+                    gearbeitet. Hier sind diejenigen, auf die ich
                     besonders stolz bin. Alle davon sind Open Source - also schau dir den Code an wenn du Lust hast.
                 </p>
             </header>
@@ -16,35 +17,8 @@
                 </ul>
             </div>
 
-            <div class="text-zinc-600 dark:dark:text-zinc-100 text-center mt-20">
-                <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">
-                    Du willst auch dein Projekt hier sehen?
-                </h2>
-                <p class="text-lg">
-                    Ich helfe dir gerne dein digitales Projekt zum Leben zu erwecken.
-                </p>
-                <p class="text-lg">
-                    Von Websites bis hin zu individuellen Webanwendungen
-                </p>
-                <div class="flex justify-center items-center gap-5 py-5">
-                <div class="flex ">
-                    <a :href="emailHref"
-                        class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
-                        <i
-                            class="text-2xl fa-solid fa-envelope h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500"></i>
-                        <span class="ml-4">{{ emailText }}</span>
-                    </a>
-                </div>
-                <div class="flex">
-                    <a :href="phoneHref"
-                        class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
-                        <i
-                            class="text-2xl fa-solid fa-phone h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500"></i>
-                        <span class="ml-4">{{ phoneText }}</span>
-                    </a>
-                </div>
-            </div>
-            </div>
+            <Cta />
+
         </Container>
     </PublicLayout>
 </template>
@@ -52,25 +26,9 @@
 <script setup>
 import PublicLayout from "@/Layouts/Public/PublicLayout.vue";
 import ProjectCard from "./Partials/ProjectCard.vue";
+import Cta from "./Partials/Cta.vue";
 import Container from "@/Components/Container.vue";
 import { WrenchScrewdriverIcon } from "@heroicons/vue/24/outline";
-import { ref, onMounted } from "vue";
-
-const emailHref = ref("");
-const emailText = ref("");
-const phoneHref = ref("");
-const phoneText = ref("");
-
-onMounted(() => {
-    const user = "korbitschl";
-    const domain = "gmail.com";
-    emailHref.value = `mailto:${user}@${domain}`;
-    emailText.value = `${user}@${domain}`;
-
-    phoneHref.value = "tel:+436601401425";
-    phoneText.value = "+43 660 14 0 14 25";
-});
-
 
 const projects = [
     {

@@ -12,6 +12,9 @@
       <SkillsBadge />
 
       <Testimonial />
+
+      <Cta />
+
     </Container>
 
   </PublicLayout>
@@ -23,5 +26,6 @@ import PublicLayout from "@/Layouts/Public/PublicLayout.vue";
 import Photos from "./Partials/Photos.vue";
 import SkillsBadge from "./Partials/SkillsBadge.vue";
 import Testimonial from "./Partials/Testimonial.vue";
+import Cta from "./Partials/Cta.vue";
 import Welcome from "./Partials/Welcome.vue";
 </script>
