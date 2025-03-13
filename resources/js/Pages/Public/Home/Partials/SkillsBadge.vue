@@ -3,7 +3,7 @@
 
         <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">Ich entwickle in..</h2>
 
-        <div class="flex flex-wrap gap-4 my-5">
+        <div class="my-6 flex flex-wrap gap-4 my-5">
             <div v-for="(skill, index) in skills" :key="index"
                 class="flex items-center px-3 py-0 rounded-3xl border cursor-pointer transition-all duration-300 dark:bg-zinc-800/90 dark:text-zinc-200 dark:border-zinc-800 hover:text-opacity-100"
                 :class="[
@@ -42,6 +42,11 @@ const skills = [
     {
         icon: "fa-hashtag",
         name: "C#",
+        color: "text-blue-500",
+    },
+    {
+        icon: "fa-hashtag",
+        name: ".NET",
         color: "text-blue-500",
     },
     {
