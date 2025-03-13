@@ -2,16 +2,19 @@
   <PublicLayout title="Home">
     <Container class="mt-16">
 
-
       <Welcome />
+      
     </Container>
 
     <Photos />
 
     <Container class="mt-16">
+
       <SkillsBadge />
 
       <Testimonial />
+
+      <Faqs />
 
       <Cta />
 
@@ -28,4 +31,5 @@ import SkillsBadge from "./Partials/SkillsBadge.vue";
 import Testimonial from "./Partials/Testimonial.vue";
 import Cta from "./Partials/Cta.vue";
 import Welcome from "./Partials/Welcome.vue";
+import Faqs from "./Partials/Faqs.vue";
 </script>
