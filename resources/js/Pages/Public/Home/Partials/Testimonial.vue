@@ -35,6 +35,9 @@
                             <figcaption class="mt-8 text-base">
                                 <div class="font-semibold text-zinc-800 dark:text-white">{{ testimonial.name }}</div>
                                 <div class="mt-1 text-zinc-700 dark:text-gray-400">{{ testimonial.position }}</div>
+                                <div class="text-zinc-700 dark:text-gray-400">{{ testimonial.organization }}</div>
+
+                                
                             </figcaption>
                         </figure>
                     </div>
@@ -56,8 +59,9 @@
 const testimonial =
 {
     name: "Markus Kirisits",
-    position: "WebAdmin & Kassier von FCG Villach",
-    text: "Fantastische Arbeit! Die Website ist modern, intuitiv und technisch perfekt umgesetzt. Der Service war herausragend - schnell, professionell und immer erreichbar. Absolut empfehlenswert!",
+    position: "WebAdmin & Ältester",
+    organization: "Freie Christengemeinde Villach",
+    text: "Lukas Korbitsch hat die Homepage hervorragend gestaltet - modern und benutzerfreundlich. Seine Erfahrung als Entwickler zeigt sich in der klaren Struktur und ansprechenden Optik. Dank seines Engagements präsentiert sich die Gemeinde online einladend und zeitgemäß.",
     image: "/images/fcg-villach.jpg"
 }
 </script>
