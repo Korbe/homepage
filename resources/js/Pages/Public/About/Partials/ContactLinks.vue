@@ -17,20 +17,10 @@
     </li>
 </template>
 <script setup>
-import { ref, onMounted } from "vue";
+import contact from "@/contact.js"
 
-const emailHref = ref("");
-const emailText = ref("");
-const phoneHref = ref("");
-const phoneText = ref("");
-
-onMounted(() => {
-    const user = "korbitschl";
-    const domain = "gmail.com";
-    emailHref.value = `mailto:${user}@${domain}`;
-    emailText.value = `${user}@${domain}`;
-
-    phoneHref.value = "tel:+436601401425";
-    phoneText.value = "+43 660 14 0 14 25";
-});
+const emailHref = `mailto:${contact.email}`;
+const emailText = contact.email;
+const phoneHref = `tel:${contact.phone}`;
+const phoneText = contact.phoneText;
 </script>
