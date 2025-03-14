@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-4">
                     <div class="max-w-xs px-2.5 lg:max-w-none">
-                        <img src="/images/me.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
+                        <img src="/images/me-xl.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
                             class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" />
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     <ul role="list">
                         <SocialLinks />
                         <ContactLinks />
-                        <VButton class-name="w-full mt-5" @click="isOpen = true">Download CV</VButton>
+                        <VButton class="w-full mt-5" @click="isOpen = true">Download CV</VButton>
                         <EmailCVModal v-if="isOpen" :isOpen="isOpen" @update:isOpen="isOpen = $event" />
                     </ul>
                 </div>
