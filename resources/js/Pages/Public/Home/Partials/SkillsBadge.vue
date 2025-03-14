@@ -16,21 +16,22 @@
                         'hover:text-red-600': skill.color === 'text-red-600',
                         'hover:text-yellow-500': skill.color === 'text-yellow-500',
                         'hover:text-orange-500': skill.color === 'text-orange-500',
+                        'hover:text-violet-600': skill.color === 'text-violet-600',
+
+                        
                     },
                     {
                         'dark:hover:text-blue-500': skill.color === 'text-blue-500',
                         'dark:hover:text-red-500': skill.color === 'text-red-500',
-                        'dark:hover:text-green-500':
-                            skill.color === 'text-green-500',
+                        'dark:hover:text-green-500': skill.color === 'text-green-500',
                         'dark:hover:text-sky-600': skill.color === 'text-sky-600',
                         'dark:hover:text-red-600': skill.color === 'text-red-600',
-                        'dark:hover:text-yellow-500':
-                            skill.color === 'text-yellow-500',
-                        'dark:hover:text-orange-500':
-                            skill.color === 'text-orange-500',
+                        'dark:hover:text-yellow-500': skill.color === 'text-yellow-500',
+                        'dark:hover:text-orange-500': skill.color === 'text-orange-500',
+                        'dark:hover:text-violet-600': skill.color === 'text-violet-600',
                     },
                 ]">
-                <i :class="['text-2xl fab', skill.icon]"></i>
+                <i :class="['text-2xl', skill.icon]"></i>
                 <span class="ml-2">{{ skill.name }}</span>
             </div>
         </div>
@@ -40,22 +41,32 @@
 <script setup>
 const skills = [
     {
-        icon: "fa-hashtag",
+        icon: "fab fa-hashtag",
         name: "C#",
         color: "text-blue-500",
     },
     {
-        icon: "fa-hashtag",
+        icon: "fab fa-hashtag",
         name: ".NET",
         color: "text-blue-500",
     },
     {
-        icon: "fa-laravel",
+        icon: "fab fa-php",
+        name: "PHP",
+        color: "text-violet-600",
+    },
+    {
+        icon: "fab fa-laravel",
         name: "Laravel",
         color: "text-red-500",
     },
     {
-        icon: "fa-vuejs",
+        icon: "fa-solid fa-database",
+        name: "SQL",
+        color: "text-orange-500",
+    },
+    {
+        icon: "fab fa-vuejs",
         name: "Vue",
         color: "text-green-500",
     },
@@ -65,29 +76,34 @@ const skills = [
         color: "text-sky-400",
     },
     {
-        icon: "fa-angular",
+        icon: "fab fa-angular",
         name: "Angular",
         color: "text-red-600",
     },
     {
-        icon: "fa-js",
+        icon: "fab fa-js",
         name: "JavaScript",
         color: "text-yellow-500",
     },
     {
-        icon: "fa-html5",
+        icon: "fab fa-html5",
         name: "Html",
         color: "text-orange-500",
     },
     {
-        icon: "fa-css3-alt",
+        icon: "fab fa-css3-alt",
         name: "Css",
         color: "text-blue-500",
     },
     {
-        icon: "fa-react",
+        icon: "fab fa-react",
         name: "React",
         color: "text-blue-500",
+    },
+    {
+        icon: "fab fa-git",
+        name: "Git",
+        color: "text-red-600",
     },
     {
         icon: "",
