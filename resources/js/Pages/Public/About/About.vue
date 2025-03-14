@@ -75,7 +75,7 @@ import SocialLinks from './Partials/SocialLinks.vue';
 import ContactLinks from './Partials/ContactLinks.vue';
 import VButton from '@/Components/VButton.vue';
 import EmailCVModal from './Partials/EmailCVModal.vue';
-import { isProxy, ref } from 'vue';
+import { ref } from 'vue';
 
 const isOpen = ref(false);
 </script>

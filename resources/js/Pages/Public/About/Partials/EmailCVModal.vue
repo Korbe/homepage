@@ -39,6 +39,7 @@
 import { ref } from 'vue';
 import { Dialog, DialogOverlay, DialogPanel, DialogTitle, TransitionRoot } from '@headlessui/vue';
 import VButton from '@/Components/VButton.vue';
+import axios from 'axios';
 
 const props = defineProps({
     isOpen: {
@@ -56,7 +57,7 @@ const closeModal = () => {
     emit('update:isOpen', false);
 };
 
-const submitEmail = () => {
+const submitEmail = async () => {
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
     if (!email.value)
@@ -64,8 +65,13 @@ const submitEmail = () => {
     else if (!emailPattern.test(email.value))
         emailError.value = 'Bitte gib eine gültige E-Mail-Adresse ein.';
     else {
-        downloadCV();
-        closeModal();
+        try {
+            await axios.post(route("api.interest_contact"), { email: email.value });
+            downloadCV();
+            closeModal();
+        } catch (error) {
+            console.error("Fehler beim Speichern der E-Mail:", error);
+        }
     }
 };
 
