@@ -2,7 +2,7 @@
   <Link
     href="/"
     aria-label="Home"
-    :class="['pointer-events-auto', className]"
+    :class="['pointer-events-auto']"
     v-bind="props"
   >
     <img
@@ -19,5 +19,5 @@
 </template>
 
 <script setup>
-const { large = false, className, ... props} = defineProps(['large', 'className'])
+const { large = false, ... props} = defineProps(['large'])
 </script>

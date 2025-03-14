@@ -1,20 +1,20 @@
 <template>
     <PublicLayout title="Mein Setup">
-        <Container className="mt-16 sm:mt-32">
+        <Container class="mt-16 sm:mt-32">
 
-            <header className="max-w-2xl">
-                <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            <header class="max-w-2xl">
+                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                     Die Werkzeuge, die mich bei jedem Schritt begleiten.
                 </h1>
-                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                     Diese Werkzeuge sind mehr als nur Technik. Sie sind die ständigen Begleiter, die mir ermöglichen,
                     meine kreativen Ideen umzusetzen, effizient zu arbeiten und jeden Schritt meines Projekts zu
                     meistern. Mit diesem Setup ist der Erfolg vorprogrammiert. 😉
                 </p>
             </header>
 
-            <div className="mt-16 sm:mt-20">
-                <div className="space-y-20">
+            <div class="mt-16 sm:mt-20">
+                <div class="space-y-20">
                     <div v-for="(section, index) in sections" :key="index">
                         <ToolsSection :title="section.sectionTitle">
                             <Tool v-for="(tool, toolIndex) in section.tools" :key="toolIndex" :title="tool.title"
