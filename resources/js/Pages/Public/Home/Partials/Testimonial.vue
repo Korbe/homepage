@@ -17,8 +17,10 @@
                     class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                     <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                         <div class="relative w-full xl:h-full h-[600px]">
+                            <a href="https://fcg-villach.at" target="_blank">
                             <img class="absolute inset-0 w-full h-full object-cover object-top rounded-2xl bg-gray-800 shadow-2xl"
                                 :src="testimonial.image" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
@@ -36,6 +38,8 @@
                                 <div class="font-semibold text-zinc-800 dark:text-white">{{ testimonial.name }}</div>
                                 <div class="mt-1 text-zinc-700 dark:text-gray-400">{{ testimonial.position }}</div>
                                 <div class="text-zinc-700 dark:text-gray-400">{{ testimonial.organization }}</div>
+
+                                <a class="text-teal-500" href="fcg-villach.at" target="_blank">fcg-villach.at</a>
 
 
                             </figcaption>
