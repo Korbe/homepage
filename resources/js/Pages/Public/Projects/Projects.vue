@@ -5,7 +5,7 @@
                 <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                     Ideen, die ich zum Leben erweckt habe.
                 </h1>
-                <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                <p class="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
                     Abseits von meinen beruflichen Projekten habe ich über die Jahre an vielen kleinen Projekten
                     gearbeitet. Hier sind diejenigen, auf die ich
                     besonders stolz bin. Alle davon sind Open Source - also schau dir den Code an wenn du Lust hast.

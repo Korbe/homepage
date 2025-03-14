@@ -13,18 +13,16 @@
         </p>
     </div>
 
-    <div>
-        <Link
-            class="transition hover:text-teal-500 dark:hover:text-teal-400 border border-transparent hover:bg-zinc-700 dark:text-zinc-200 dark:bg-zinc-800/90 py-2 px-5 rounded-3xl mr-3"
-            :href="route('public.about')">
-        Über mich
-        </Link>
-        <Link
-            class="transition hover:text-teal-500 dark:hover:text-teal-400 border border-transparent hover:bg-zinc-700 dark:text-zinc-200 dark:bg-zinc-800/90 py-2 px-5 rounded-3xl mr-3"
-            :href="route('public.projects')">
-        Projekte
-        </Link>
+    <div class="mt-5 flex gap-2">
+        <VButton :href="route('public.about')">
+            Über mich
+        </VButton>
+        <VButton :href="route('public.projects')">
+            Projekte
+        </VButton>
     </div>
 </template>
 <script setup>
+import VButton from '@/Components/VButton.vue';
+
 </script>

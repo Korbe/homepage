@@ -37,7 +37,7 @@
                                 <div class="mt-1 text-zinc-700 dark:text-gray-400">{{ testimonial.position }}</div>
                                 <div class="text-zinc-700 dark:text-gray-400">{{ testimonial.organization }}</div>
 
-                                
+
                             </figcaption>
                         </figure>
                     </div>
@@ -46,16 +46,16 @@
         </div>
 
         <div class="flex justify-center">
-            <Link
-                class="transition hover:text-teal-500 dark:hover:text-teal-400 border border-transparent hover:bg-zinc-700 dark:text-zinc-200 dark:bg-zinc-800/90 py-2 px-5 rounded-3xl mr-3"
-                :href="route('public.projects')">
-            Alle Projekte
-            </Link>
+            <VButton :href="route('public.projects')">
+                Alle Projekte
+            </VButton>
         </div>
     </div>
 
 </template>
 <script setup>
+import VButton from '@/Components/VButton.vue';
+
 const testimonial =
 {
     name: "Markus Kirisits",
