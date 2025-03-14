@@ -1,10 +1,3 @@
-<script setup>
-import Container from '@/Components/Container.vue';
-import PublicLayout from '@/Layouts/Public/PublicLayout.vue';
-import SocialLinks from './Partials/SocialLinks.vue';
-import ContactLinks from './Partials/ContactLinks.vue';
-</script>
-
 <template>
     <PublicLayout title="Über mich">
         <Container class="mt-16 sm:mt-32">
@@ -67,9 +60,22 @@ import ContactLinks from './Partials/ContactLinks.vue';
                     <ul role="list">
                         <SocialLinks />
                         <ContactLinks />
+                        <VButton class-name="w-full mt-5" @click="isOpen = true">Download CV</VButton>
+                        <EmailCVModal v-if="isOpen" :isOpen="isOpen" @update:isOpen="isOpen = $event" />
                     </ul>
                 </div>
             </div>
         </Container>
     </PublicLayout>
 </template>
+<script setup>
+import Container from '@/Components/Container.vue';
+import PublicLayout from '@/Layouts/Public/PublicLayout.vue';
+import SocialLinks from './Partials/SocialLinks.vue';
+import ContactLinks from './Partials/ContactLinks.vue';
+import VButton from '@/Components/VButton.vue';
+import EmailCVModal from './Partials/EmailCVModal.vue';
+import { isProxy, ref } from 'vue';
+
+const isOpen = ref(false);
+</script>
