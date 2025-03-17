@@ -1,12 +1,12 @@
 <template>
-    <div class="text-zinc-600 dark:dark:text-zinc-100 text-center mt-20">
-        <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">
+    <div class="text-center mt-20">
+        <h2 class="text-2xl font-bold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark my-3">
             Du hast Fragen? Ich habe Antworten.
         </h2>
-        <p class="text-lg text-zinc-600 dark:text-zinc-400">
+        <p class="text-lg text-brand-text dark:text-brand-text-dark">
             Ich helfe dir gerne bei deinem Anliegen weiter.
         </p>
-        <p class="text-lg text-zinc-600 dark:text-zinc-400">
+        <p class="text-lg text-brand-text dark:text-brand-text-dark">
             Kontaktiere mich und wie sehen wo die Reise hingeht.
         </p>
         

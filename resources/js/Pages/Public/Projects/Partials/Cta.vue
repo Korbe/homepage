@@ -1,6 +1,6 @@
 <template>
-    <div class="text-zinc-600 dark:dark:text-zinc-100 text-center mt-20">
-        <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">
+    <div class="text-brand-text dark:dark:text-brand-headline-dark text-center mt-20">
+        <h2 class="text-2xl font-bold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark my-3">
             Du willst auch dein Projekt hier sehen?
         </h2>
         <p class="text-lg">

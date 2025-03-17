@@ -7,10 +7,10 @@
 
                         <div class="flex flex-col items-center justify-between gap-6 md:flex-row">
                             <div
-                                class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                                <Link class="hover:text-teal-500" href="/">Home</Link>
-                                <Link class="hover:text-teal-500" href="/about">About</Link>
-                                <Link class="hover:text-teal-500" href="/projects">Projects</Link>
+                                class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-brand-headline dark:text-zinc-200">
+                                <Link class="hover:text-brand" href="/">Home</Link>
+                                <Link class="hover:text-brand" href="/about">About</Link>
+                                <Link class="hover:text-brand" href="/projects">Projects</Link>
                             </div>
                             <p class="text-sm text-zinc-400 dark:text-zinc-500">
                                 &copy; {{ new Date().getFullYear() }} Ing. Lukas Korbitsch. All rights

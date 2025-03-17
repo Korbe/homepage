@@ -25,8 +25,8 @@ const navItemClasses = computed(() => {
     return [
         'relative block transition',
         isActive.value
-            ? 'text-teal-500 dark:text-teal-400'
-            : 'hover:text-teal-500 dark:hover:text-teal-400'
+            ? 'text-brand'
+            : 'hover:text-brand'
     ]
 })
 </script>

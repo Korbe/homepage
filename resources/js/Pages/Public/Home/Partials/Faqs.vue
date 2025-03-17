@@ -1,13 +1,13 @@
 <template>
     <div class="max-w-4xl py-12">
-        <h2 class="text-4xl font-semibold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">Auf Fragen
+        <h2 class="text-4xl font-semibold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark">Auf Fragen
             gibt es Antworten</h2>
         <dl class="my-12 divide-y divide-gray-900/10">
             <Disclosure as="div" v-for="(faq, index) in faqs" :key="faq.question" class="py-6 first:pt-0 last:pb-0"
                 :defaultOpen="index === 0" v-slot="{ open }">
                 <dt>
                     <DisclosureButton
-                        class="flex w-full items-start justify-between text-left text-zinc-800 sm:text-3xl dark:text-zinc-100">
+                        class="flex w-full items-start justify-between text-left text-brand-headline sm:text-3xl dark:text-brand-headline-dark">
                         <span class="cursor-pointer text-base/7 font-semibold">{{ faq.question }}</span>
                         <span class="ml-6 flex h-7 items-center">
                             <PlusIcon v-if="!open" class="cursor-pointer size-6" aria-hidden="true" />
@@ -16,7 +16,7 @@
                     </DisclosureButton>
                 </dt>
                 <DisclosurePanel as="dd" class="mt-2 pr-12">
-                    <p class="text-base/7 text-zinc-600 dark:text-zinc-400">{{ faq.answer }}</p>
+                    <p class="text-base/7 text-brand-text dark:text-brand-text-dark">{{ faq.answer }}</p>
                 </DisclosurePanel>
             </Disclosure>
         </dl>

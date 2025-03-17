@@ -3,10 +3,10 @@
         <Container class="mt-16 sm:mt-32">
             
             <header class="max-w-2xl">
-                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                <h1 class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
                     Ideen, die ich zum Leben erweckt habe.
                 </h1>
-                <p class="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
+                <p class="mt-6 text-lg text-brand-text dark:text-brand-text-dark">
                     Abseits von meinen beruflichen Projekten habe ich über die Jahre an vielen kleinen Projekten
                     gearbeitet. Hier sind diejenigen, auf die ich
                     besonders stolz bin. Alle davon sind Open Source - also schau dir den Code an wenn du Lust hast.

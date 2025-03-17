@@ -1,6 +1,6 @@
 <template>
     <div class="w-full overflow-hidden">
-        <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">
+        <h2 class="text-2xl font-bold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark my-3">
             Ich entwickle mit...
         </h2>
 

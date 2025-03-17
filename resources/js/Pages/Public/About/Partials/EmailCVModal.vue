@@ -8,15 +8,15 @@
                 <DialogPanel
                     class="inline-block transform bg-white dark:bg-zinc-900 rounded-lg text-left overflow-hidden shadow-xl transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
                     <div class="p-6">
-                        <DialogTitle class="text-xl font-semibold text-zinc-800 dark:text-zinc-100">Danke für dein
+                        <DialogTitle class="text-xl font-semibold text-brand-headline dark:text-brand-headline-dark">Danke für dein
                             Interesse an meinem Lebenslauf!</DialogTitle>
-                        <p class="text-zinc-800 dark:text-zinc-100 text-base">
+                        <p class="text-brand-headline dark:text-brand-headline-dark text-base">
                             Bitte gib deine E-Mail-Adresse ein, um den Lebenslauf herunterzuladen. Ich freue mich, dass
                             du mehr über mich erfahren möchtest.
                         </p>
                         <div class="mt-4">
                             <input v-model="email" type="email" placeholder="E-Mail"
-                                class="w-full bg-white/90 text-zinc-800 font-medium shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:text-teal-500 dark:hover:text-teal-400 dark:hover:bg-zinc-800 border dark:text-zinc-200 dark:dark:bg-zinc-800/50 border-transparent py-2 px-5 rounded-3xl"
+                                class="w-full bg-white/90 text-brand-headline font-medium shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 hover:text-brand dark:hover:bg-zinc-800 border dark:text-zinc-200 dark:dark:bg-zinc-800/50 border-transparent py-2 px-5 rounded-3xl"
                                 required />
                             <p v-if="emailError" class="text-red-500 text-sm mt-2">{{ emailError }}</p>
                         </div>

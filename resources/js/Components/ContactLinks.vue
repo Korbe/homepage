@@ -2,17 +2,17 @@
     <div class="flex justify-center items-center gap-5 py-5">
         <div class="flex ">
             <a :href="emailHref"
-                class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+                class="group flex text-sm font-medium text-brand-headline transition hover:text-brand dark:text-brand-headline-dark">
                 <i
-                    class="text-2xl fa-solid fa-envelope h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500"></i>
+                    class="text-2xl fa-solid fa-envelope h-6 w-6 flex-none transition group-hover:fill-brand"></i>
                 <span class="ml-4">{{ emailText }}</span>
             </a>
         </div>
         <div class="flex">
             <a :href="phoneHref"
-                class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+                class="group flex text-sm font-medium text-brand-headline transition hover:text-brand dark:text-brand-headline-dark">
                 <i
-                    class="text-2xl fa-solid fa-phone h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500"></i>
+                    class="text-2xl fa-solid fa-phone h-6 w-6 flex-none transition group-hover:text-brand"></i>
                 <span class="ml-4">{{ phoneText }}</span>
             </a>
         </div>

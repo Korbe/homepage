@@ -5,14 +5,14 @@
                 <div class="lg:pl-4">
                     <div class="max-w-xs px-2.5 lg:max-w-none">
                         <img src="/images/me-xl.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
-                            class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" />
+                            class="aspect-square rotate-3 rounded-2xl object-cover" />
                     </div>
                 </div>
                 <div class="lg:order-first lg:row-span-2">
-                    <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                    <h1 class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
                         Ich bin Ing. Lukas Korbitsch. Aus Villach und bringe Code zum Leben.
                     </h1>
-                    <div class="mt-6 space-y-7 text-lg text-zinc-600 dark:text-zinc-400">
+                    <div class="mt-6 space-y-7 text-lg text-brand-text dark:text-brand-text-dark">
                         <p>
                             Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war <b>Anno 1701</b>. Schon damals
                             war ich fasziniert von Computern, auch wenn ich noch nicht wusste, welchen Weg ich später

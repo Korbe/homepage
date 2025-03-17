@@ -3,7 +3,7 @@
         <Link :href="href" :class="navItemClasses">
         <slot></slot>
         <span v-if="isActive"
-            class="absolute inset-x-1 -bottom-px h-px bg-linear-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+            class="absolute inset-x-1 -bottom-px h-px bg-linear-to-r from-brand/0 via-brand/40 to-brand/0"></span>
         </Link>
     </li>
 </template>
@@ -24,8 +24,8 @@ const navItemClasses = computed(() => {
     return [
         'relative block px-3 py-2 transition',
         isActive.value
-            ? 'text-teal-500 dark:text-teal-400'
-            : 'hover:text-teal-500 dark:hover:text-teal-400'
+            ? 'text-brand'
+            : 'hover:text-brand'
     ]
 })
 </script>
