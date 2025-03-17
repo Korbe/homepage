@@ -60,6 +60,7 @@
                     <ul role="list">
                         <SocialLinks />
                         <ContactLinks />
+                        <VButton class="w-full mt-5" @click="downloadVCF">Kontakt speichern</VButton>
                         <VButton class="w-full mt-5" @click="isOpen = true">Download CV</VButton>
                         <EmailCVModal v-if="isOpen" :isOpen="isOpen" @update:isOpen="isOpen = $event" />
                     </ul>
@@ -76,6 +77,8 @@ import ContactLinks from './Partials/ContactLinks.vue';
 import VButton from '@/Components/VButton.vue';
 import EmailCVModal from './Partials/EmailCVModal.vue';
 import { ref } from 'vue';
+import { downloadVCF } from '@/vcard';
+
 
 const isOpen = ref(false);
 </script>

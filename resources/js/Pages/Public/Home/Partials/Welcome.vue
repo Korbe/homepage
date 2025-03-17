@@ -13,16 +13,18 @@
         </p>
     </div>
 
-    <div class="mt-5 flex gap-2">
+    <div class="mt-5 flex flex-wrap gap-2">
         <VButton :href="route('public.about')">
             Über mich
         </VButton>
         <VButton :href="route('public.projects')">
             Projekte
         </VButton>
+        <VButton @click="downloadVCF">Kontakt speichern</VButton>
     </div>
 </template>
 <script setup>
 import VButton from '@/Components/VButton.vue';
+import { downloadVCF } from '@/vcard';
 
 </script>
