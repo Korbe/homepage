@@ -3,10 +3,10 @@
         <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100 my-3">
             Du hast Fragen? Ich habe Antworten.
         </h2>
-        <p class="text-lg">
+        <p class="text-lg text-zinc-600 dark:text-zinc-400">
             Ich helfe dir gerne bei deinem Anliegen weiter.
         </p>
-        <p class="text-lg">
+        <p class="text-lg text-zinc-600 dark:text-zinc-400">
             Kontaktiere mich und wie sehen wo die Reise hingeht.
         </p>
         

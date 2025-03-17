@@ -19,9 +19,9 @@ Route::get('/uses', function () {
     return Inertia::render('Public/Uses/Uses');
 })->name("public.uses");
 
-Route::get('/card', function () {
-    return Inertia::render('Public/Card/Card');
-})->name("public.card");
+// Route::get('/card', function () {
+//     return Inertia::render('Public/Card/Card');
+// })->name("public.card");
 
 
 
