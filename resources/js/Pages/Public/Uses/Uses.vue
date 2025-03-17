@@ -1,5 +1,5 @@
 <template>
-    <PublicLayout title="Mein Setup">
+    <PublicLayout title="Setup">
         <Container class="mt-16 sm:mt-32">
 
             <header class="max-w-2xl">
