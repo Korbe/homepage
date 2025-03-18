@@ -9,28 +9,36 @@
                     </div>
                 </div>
                 <div class="lg:order-first lg:row-span-2">
-                    <h1 class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
+                    <h1
+                        class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
                         Ich bin Ing. Lukas Korbitsch. Aus Villach und bringe Code zum Leben.
                     </h1>
                     <div class="mt-6 space-y-7 text-lg text-brand-text dark:text-brand-text-dark">
                         <p>
-                            Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war <b>Anno 1701</b>. Schon damals
+                            Mein erstes Computerspiel, das mich als Kind nicht mehr losließ, war <b>Anno 1701</b>. Schon
+                            damals
                             war ich fasziniert von Computern, auch wenn ich noch nicht wusste, welchen Weg ich später
                             einschlagen würde.
                         </p>
                         <p>
-                            Während meiner Schulzeit an der <a class="underline" target="_blank" href="https://www.htl-villach.at/"><b>HTL Villach</b></a> entdeckte ich meine Leidenschaft für das
+                            Während meiner Schulzeit an der <a class="underline" target="_blank"
+                                href="https://www.htl-villach.at/"><b>HTL Villach</b></a> entdeckte ich meine
+                            Leidenschaft für das
                             Programmieren. Heute liebe ich es, Software zu entwickeln - auch wenn es manchmal
                             herausfordernd sein kann. Doch genau das reizt mich: Dinge zu automatisieren, Prozesse zum
                             Leben zu erwecken und kreative Lösungen zu finden.
                         </p>
                         <p>
-                            Derzeit bin ich Vollzeit Angestellter bei <a class="underline" target="_blank" href="https://software-cube.at"><b>SoftwareCUBE</b></a> und 
-                            arbeite für <a class="underline" target="_blank" href="https://www.infineon.com/cms/de/"><b>Infineon Technologies</b></a> an 
-                            diversen Projekten in der Hochautomatisierung. Neben meiner Tätigkeit in der Softwareentwicklung helfe 
+                            Derzeit bin ich Vollzeit Angestellter bei <a class="underline" target="_blank"
+                                href="https://software-cube.at"><b>SoftwareCUBE</b></a> und
+                            arbeite für <a class="underline" target="_blank"
+                                href="https://www.infineon.com/cms/de/"><b>Infineon Technologies</b></a> an
+                            diversen Projekten in der Hochautomatisierung. Neben meiner Tätigkeit in der
+                            Softwareentwicklung helfe
                             ich auch gerne anderen mit ihren technischen Fragen -
                             sei es beim PC, Smartphone, Kaufempfehlungen oder sogar bei der Erstellung von Websites.
-                            Dabei arbeite ich nicht mit Baukastensystemen, sondern entwickle <b>maßgeschneiderte Webapps</b>.
+                            Dabei arbeite ich nicht mit Baukastensystemen, sondern entwickle <b>maßgeschneiderte
+                                Webapps</b>.
                             Jede von ihnen ist ein handgefertigtes Unikat, das genau auf die Wünsche und Anforderungen
                             des Nutzers zugeschnitten ist. Webapps sehen aus und verhalten sich wie klassische Apps,
                             sind aber technisch gesehen Websites - mit allen Vorteilen, die das mit sich bringt.
@@ -51,9 +59,19 @@
                                 Hängematte</b>, bei Spaziergängen oder einfach, um frische Luft zu schnappen. Besonders
                             wichtig
                             sind mir auch <b>Treffen mit Freunden</b>, denn gute Gespräche und gemeinsame Erlebnisse
-                            gehören
-                            für mich genauso zum Leben dazu.
+                            gehören für mich genauso zum Leben dazu.
                         </p>
+
+                        <div class="border w-10 my-10 mx-auto border-brand-text dark:border-brand-text-dark"></div>
+
+                        <blockquote class="text-center italic font-bold">
+                            <p>Wenn ich etwas noch nicht kann, dann lerne ich es - in
+                                Zeiten von Google und ChatGPT gibt es kaum ein Problem, das sich nicht lösen lässt. Wer
+                                nicht lernt, bleibt stehen, und wer
+                                stehen bleibt, hört auf,
+                                gut zu sein.
+                            </p>
+                        </blockquote>
                     </div>
                 </div>
                 <div class="lg:pl-20">
