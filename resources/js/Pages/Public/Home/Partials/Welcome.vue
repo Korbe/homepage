@@ -4,12 +4,9 @@
             Software Engineer, Plant Lover and Helping Hand.
         </h1>
         <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
-            Hallo, ich bin Ing. Lukas Korbitsch aus Villach und entwickle maßgeschneiderte Webapps. Schon als Kind
-            fasziniert von
-            Computern, entdeckte ich meine Leidenschaft fürs Programmieren an der HTL Villach. Neben der
-            Softwareentwicklung helfe ich bei technischen Fragen und genieße in meiner Freizeit das Hobby Gärtnern,
-            Computerspielen sowie
-            Outdoor-Aktivitäten.
+            Hallo, ich bin Ing. Korbitsch Lukas, Ihr zuverlässiger IT-Dienstleister für WebApps, PC- und Smartphone-Support sowie individuelle
+            Gaming-PCs. Egal, ob es um Softwareprobleme, Hardwarezusammenstellungen oder digitale Lösungen geht - ich
+            finde für Sie die passende Lösung.
         </p>
     </div>
 
