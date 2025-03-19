@@ -1,5 +1,5 @@
 <template>
-    <header class="pointer-events-none relative z-50 flex flex-none flex-col"
+    <header class="pointer-events-none relative z-10 flex flex-none flex-col"
         style="height:var(--header-height);margin-bottom:var(--header-mb)">
         <div v-if="isHomePage" class="order-last mt-[calc(--spacing(16)-(--spacing(3)))]"></div>
         <div v-if="isHomePage" ref="avatarRef" class="top-0 order-last -mb-3 pt-3">

@@ -7,9 +7,9 @@
         class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" />
     </PopoverButton>
     <PopoverOverlay transition
-      class="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-xs duration-150 data-closed:opacity-0 data-enter:ease-out data-leave:ease-in dark:bg-black/80" />
+      class="fixed inset-0 z-10 bg-zinc-800/40 backdrop-blur-xs duration-150 data-closed:opacity-0 data-enter:ease-out data-leave:ease-in dark:bg-black/80" />
     <PopoverPanel focus transition
-      class="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 duration-150 data-closed:scale-95 data-closed:opacity-0 data-enter:ease-out data-leave:ease-in dark:bg-zinc-900 dark:ring-zinc-800">
+      class="fixed inset-x-4 top-8 z-10 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 duration-150 data-closed:scale-95 data-closed:opacity-0 data-enter:ease-out data-leave:ease-in dark:bg-zinc-900 dark:ring-zinc-800">
       <div class="flex flex-row-reverse items-center justify-between">
         <PopoverButton aria-label="Close menu" class="-m-1 p-1">
           <XMarkIcon class="h-6 w-6 text-zinc-500 dark:text-brand-text-dark" />
