@@ -1,12 +1,12 @@
 <template>
     <div class="max-w-2xl relative">
         <h1 class="text-4xl font-bold tracking-tigh sm:text-5xl text-brand-headline dark:text-brand-headline-dark">
-            Software Engineer, Plant Lover and Helping Hand.
+            Software Engineer, Designer and Helping Hand.
         </h1>
         <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
-            Hallo, ich bin Ing. Korbitsch Lukas, Ihr zuverlässiger IT-Dienstleister für WebApps, PC- und Smartphone-Support sowie individuelle
+            Hallo, ich bin Ing. Korbitsch Lukas, dein zuverlässiger IT-Dienstleister für WebApps, PC- und Smartphone-Support sowie individuelle
             Gaming-PCs. Egal, ob es um Softwareprobleme, Hardwarezusammenstellungen oder digitale Lösungen geht - ich
-            finde für Sie die passende Lösung.
+            finde für dich die passende Lösung.
         </p>
     </div>
 
