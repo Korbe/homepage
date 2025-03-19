@@ -19,6 +19,14 @@ Route::get('/uses', function () {
     return Inertia::render('Public/Uses/Uses');
 })->name("public.uses");
 
+Route::get('/impressum', function () {
+    return Inertia::render('Public/Legal/Impressum');
+})->name("public.imprint");
+
+Route::get('/cockies', function () {
+    return Inertia::render('Public/Legal/Cookies');
+})->name("public.cookies");
+
 // Route::get('/card', function () {
 //     return Inertia::render('Public/Card/Card');
 // })->name("public.card");

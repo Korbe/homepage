@@ -11,6 +11,9 @@
                                 <Link class="hover:text-brand" href="/">Home</Link>
                                 <Link class="hover:text-brand" href="/about">About</Link>
                                 <Link class="hover:text-brand" href="/projects">Projects</Link>
+                                <Link class="hover:text-brand" href="/uses">Setup</Link>
+                                <Link class="hover:text-brand" href="/impressum">Impressum</Link>
+                                <Link class="hover:text-brand" href="/cookies">Cookies</Link>
                             </div>
                             <p class="text-sm text-zinc-400 dark:text-zinc-500">
                                 &copy; {{ new Date().getFullYear() }} Ing. Lukas Korbitsch. All rights
