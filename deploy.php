@@ -13,10 +13,24 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('XXX.XXX.XXX.XXX')
+host('217.154.67.144')
+    ->set('ssh_multiplexing', false)
     ->set('remote_user', 'deployer')
-    ->set('deploy_path', '~/Korbitsch');
+    ->set('deploy_path', '/var/www/korbitsch.at');
 
 // Hooks
+task('npm-install', function () {
+    cd('{{release_path}}');
+    run('npm install');
+});
 
+task('npm-build', function () {
+    cd('{{release_path}}');
+    run('npm run build');
+});
+
+// after('deploy:update_code', 'npm-install');
+// after('npm-install', 'npm-build');
+
+after('deploy:setup', 'deploy:unlock');
 after('deploy:failed', 'deploy:unlock');
