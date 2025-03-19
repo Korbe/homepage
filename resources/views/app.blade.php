@@ -25,6 +25,16 @@
     @inertiaHead
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-162ZVL3ZBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-162ZVL3ZBV');
+</script>
+
 <body class="flex h-full bg-zinc-50 dark:bg-black font-roboto">
     @inertia
 </body>
