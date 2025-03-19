@@ -23,7 +23,7 @@ Route::get('/impressum', function () {
     return Inertia::render('Public/Legal/Impressum');
 })->name("public.imprint");
 
-Route::get('/cockies', function () {
+Route::get('/cookies', function () {
     return Inertia::render('Public/Legal/Cookies');
 })->name("public.cookies");
 
