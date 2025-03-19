@@ -19,7 +19,7 @@ createInertiaApp({
     setup({ el, App, props, plugin }) {
         return createApp({
             render: () => {
-                // el.classList.add("w-full");
+                el.setAttribute('scroll-region', '');
                 return h(App, props);
             },
         })
