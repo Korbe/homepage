@@ -1,6 +1,8 @@
 <template>
     <Head :title="title" />
 
+    <CookieBanner />
+
     <div class="flex min-h-screen bg-zinc-200 dark:bg-black">
         <div class="flex w-full">
             <div class="fixed inset-0 flex justify-center sm:px-8">
@@ -21,6 +23,7 @@
     </div>
 </template>
 <script setup>
+import CookieBanner from "@/Components/CookieBanner.vue";
 import PublicFooter from "./PublicFooter.vue";
 import PublicHeader from "./PublicHeader.vue";
 import { Head } from "@inertiajs/vue3";
