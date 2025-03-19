@@ -29,8 +29,8 @@ task('npm-build', function () {
     run('npm run build');
 });
 
-// after('deploy:update_code', 'npm-install');
-// after('npm-install', 'npm-build');
+after('deploy:vendors', 'npm-install');
+after('npm-install', 'npm-build');
 
 after('deploy:setup', 'deploy:unlock');
 after('deploy:failed', 'deploy:unlock');
