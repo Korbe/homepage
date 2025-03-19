@@ -32,7 +32,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-162ZVL3ZBV');
+  gtag('config', 'G-162ZVL3ZBV', { 'anonymize_ip': true });
 </script>
 
 <body class="flex h-full bg-zinc-50 dark:bg-black font-roboto">
