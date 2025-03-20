@@ -29,7 +29,7 @@
                             Leben zu erwecken und kreative Lösungen zu finden.
                         </p>
                         <p>
-                            Derzeit bin ich Vollzeit Angestellter bei <a class="underline" target="_blank"
+                            Beruflich bin ich Vollzeit Angestellter bei der Firma <a class="underline" target="_blank"
                                 href="https://software-cube.at"><b>SoftwareCUBE</b></a> und
                             arbeite für <a class="underline" target="_blank"
                                 href="https://www.infineon.com/cms/de/"><b>Infineon Technologies</b></a> an
@@ -60,6 +60,12 @@
                             wichtig
                             sind mir auch <b>Treffen mit Freunden</b>, denn gute Gespräche und gemeinsame Erlebnisse
                             gehören für mich genauso zum Leben dazu.
+                        </p>
+                        <p>
+                            Ein besonders wichtiger Teil meines Lebens ist meine <b>wundervolle Freundin</b> die mich in allem,
+                            was ich tue, unterstützt. Sie gibt mir Rückhalt, motiviert mich und macht das Leben noch
+                            schöner. Gemeinsam meistern wir Herausforderungen, genießen unsere Zeit und inspirieren uns
+                            gegenseitig.
                         </p>
 
                         <div class="border w-10 my-10 mx-auto border-brand-text dark:border-brand-text-dark"></div>
