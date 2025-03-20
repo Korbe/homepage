@@ -1,5 +1,5 @@
 <template>
-    <PublicLayout>
+    <PublicLayout title="Impressum">
         <Container class="mt-16 sm:mt-32">
             <header>
                 <h1 class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
