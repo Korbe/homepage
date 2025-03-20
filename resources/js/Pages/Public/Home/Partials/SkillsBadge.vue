@@ -8,59 +8,28 @@
         <div class="relative flex overflow-hidden whitespace-nowrap">
             <!-- Gruppe von Skills -->
             <div class="marquee flex">
-                <div v-for="(skill, index) in skills" :key="'a' + index" class="flex items-center px-4 py-1 mx-2 rounded-3xl border shadow-sm cursor-pointer transition-all duration-300 
-                      dark:bg-zinc-800/90 dark:text-zinc-200 dark:border-zinc-800 hover:scale-110" :class="[
+                <div v-for="(skill, index) in allSkills" :key="'a' + index" tabindex="0" class="flex items-center px-4 py-1 mx-2 rounded-3xl border shadow-sm cursor-pointer transition-all duration-300 
+                      dark:bg-zinc-800/90 dark:text-zinc-200 dark:border-zinc-800 focus:scale-110 active:scale-110" :class="[
                         skill.color,
                         {
-                            'hover:text-blue-500': skill.color === 'text-blue-500',
-                            'hover:text-red-500': skill.color === 'text-red-500',
-                            'hover:text-green-500': skill.color === 'text-green-500',
-                            'hover:text-sky-400': skill.color === 'text-sky-400',
-                            'hover:text-red-600': skill.color === 'text-red-600',
-                            'hover:text-yellow-500': skill.color === 'text-yellow-500',
-                            'hover:text-orange-500': skill.color === 'text-orange-500',
-                            'hover:text-violet-600': skill.color === 'text-violet-600',
+                            'focus:text-blue-500': skill.color === 'text-blue-500',
+                            'focus:text-red-500': skill.color === 'text-red-500',
+                            'focus:text-green-500': skill.color === 'text-green-500',
+                            'focus:text-sky-400': skill.color === 'text-sky-400',
+                            'focus:text-red-600': skill.color === 'text-red-600',
+                            'focus:text-yellow-500': skill.color === 'text-yellow-500',
+                            'focus:text-orange-500': skill.color === 'text-orange-500',
+                            'focus:text-violet-600': skill.color === 'text-violet-600',
                         },
                         {
-                            'dark:hover:text-blue-500': skill.color === 'text-blue-500',
-                            'dark:hover:text-red-500': skill.color === 'text-red-500',
-                            'dark:hover:text-green-500': skill.color === 'text-green-500',
-                            'dark:hover:text-sky-600': skill.color === 'text-sky-600',
-                            'dark:hover:text-red-600': skill.color === 'text-red-600',
-                            'dark:hover:text-yellow-500': skill.color === 'text-yellow-500',
-                            'dark:hover:text-orange-500': skill.color === 'text-orange-500',
-                            'dark:hover:text-violet-600': skill.color === 'text-violet-600',
-                        },
-                    ]">
-                    <i v-if="skill.icon" :class="['text-2xl', skill.icon]"></i>
-                    <span class="ml-2">{{ skill.name }}</span>
-                </div>
-            </div>
-
-            <!-- Doppelte Gruppe von Skills für nahtloses Scrollen -->
-            <div class="ml-80 marquee flex" aria-hidden="true">
-                <div v-for="(skill, index) in skills" :key="'b' + index" class="flex items-center px-4 py-1 mx-2 rounded-3xl border shadow-sm cursor-pointer transition-all duration-300 
-                      dark:bg-zinc-800/90 dark:text-zinc-200 dark:border-zinc-800 hover:scale-110" :class="[
-                        skill.color,
-                        {
-                            'hover:text-blue-500': skill.color === 'text-blue-500',
-                            'hover:text-red-500': skill.color === 'text-red-500',
-                            'hover:text-green-500': skill.color === 'text-green-500',
-                            'hover:text-sky-400': skill.color === 'text-sky-400',
-                            'hover:text-red-600': skill.color === 'text-red-600',
-                            'hover:text-yellow-500': skill.color === 'text-yellow-500',
-                            'hover:text-orange-500': skill.color === 'text-orange-500',
-                            'hover:text-violet-600': skill.color === 'text-violet-600',
-                        },
-                        {
-                            'dark:hover:text-blue-500': skill.color === 'text-blue-500',
-                            'dark:hover:text-red-500': skill.color === 'text-red-500',
-                            'dark:hover:text-green-500': skill.color === 'text-green-500',
-                            'dark:hover:text-sky-600': skill.color === 'text-sky-600',
-                            'dark:hover:text-red-600': skill.color === 'text-red-600',
-                            'dark:hover:text-yellow-500': skill.color === 'text-yellow-500',
-                            'dark:hover:text-orange-500': skill.color === 'text-orange-500',
-                            'dark:hover:text-violet-600': skill.color === 'text-violet-600',
+                            'dark:focus:text-blue-500': skill.color === 'text-blue-500',
+                            'dark:focus:text-red-500': skill.color === 'text-red-500',
+                            'dark:focus:text-green-500': skill.color === 'text-green-500',
+                            'dark:focus:text-sky-600': skill.color === 'text-sky-600',
+                            'dark:focus:text-red-600': skill.color === 'text-red-600',
+                            'dark:focus:text-yellow-500': skill.color === 'text-yellow-500',
+                            'dark:focus:text-orange-500': skill.color === 'text-orange-500',
+                            'dark:focus:text-violet-600': skill.color === 'text-violet-600',
                         },
                     ]">
                     <i v-if="skill.icon" :class="['text-2xl', skill.icon]"></i>
@@ -72,27 +41,37 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
 const skills = [
     { icon: "fab fa-hashtag", name: "C#", color: "text-blue-500" },
     { icon: "fab fa-hashtag", name: ".NET", color: "text-blue-500" },
     { icon: "fab fa-php", name: "PHP", color: "text-violet-600" },
     { icon: "fab fa-laravel", name: "Laravel", color: "text-red-500" },
     { icon: "fa-solid fa-database", name: "SQL", color: "text-orange-500" },
-    { icon: "fab fa-vuejs", name: "Vue.js", color: "text-green-500" },
+    { icon: "fab fa-vuejs", name: "Vue", color: "text-green-500" },
     { icon: "", name: "TailwindCSS", color: "text-sky-400" },
     { icon: "fab fa-js", name: "JavaScript", color: "text-yellow-500" },
     { icon: "fab fa-react", name: "React", color: "text-blue-500" },
     { icon: "fab fa-angular", name: "Angular", color: "text-red-600" },
     { icon: "fab fa-git", name: "Git", color: "text-red-600" },
 ];
+
+const allSkills = computed(() => [...skills, ...skills, ...skills, ...skills]);
 </script>
 
 <style scoped>
 /* Endloses Marquee */
 .marquee {
     display: flex;
-    min-width: 100%;
-    animation: marquee-scroll 20s linear infinite;
+    min-width: 400%;
+    animation: marquee-scroll 60s linear infinite;
+}
+
+@media (max-width: 768px) {
+    .marquee {
+        animation: marquee-scroll 25s linear infinite;
+    }
 }
 
 /* Animation für nahtloses Scrollen */
