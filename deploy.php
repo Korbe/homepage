@@ -30,7 +30,7 @@ task('npm:build', function () {
 });
 
 task('fpm:restart', function () {
-    run('systemctl restart php8.3-fpm');
+    run('sudo systemctl restart php8.3-fpm');
 });
 
 after('deploy:vendors', 'npm:install');
