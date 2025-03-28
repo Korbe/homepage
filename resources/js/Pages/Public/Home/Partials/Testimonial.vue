@@ -1,8 +1,7 @@
 <template>
     <div class="my-20">
         <div class="max-w-4xl">
-            <h2 class="text-2xl font-bold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark my-3">Mein bis
-                jetzt größtes Projekt!</h2>
+            <h2 class="text-2xl font-bold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark my-3">Mein bisher größtes Projekt!</h2>
             <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
                 Die Webapp der Freien Christengemeinde (FCG) in Villach umfasst eine einladende Landingpage sowie sieben
                 individuell gestaltete Unterseiten. Über das Dashboard lassen sich aufgezeichnete Predigten hochladen,
