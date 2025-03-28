@@ -15,7 +15,7 @@
 
             <section>
                 <h2 class="mt-6 mb-2 text-lg text-brand-headline-text dark:text-brand-headline-dark">
-                    1. Kontakt mit uns
+                    1. Kontakt mit mir
                 </h2>
 
                 <p class="text-brand-text dark:text-brand-text-dark">
