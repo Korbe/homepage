@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-        <div v-if="show" class="fixed inset-0 flex items-center flex-col justify-center bg-zinc-100 dark:bg-zinc-900 z-50">
+        <div aria-hidden="true" v-if="show" class="fixed inset-0 flex items-center flex-col justify-center bg-zinc-100 dark:bg-zinc-900 z-50">
             <h1 class="text-3xl animate-pulse text-brand-text dark:text-brand-text-dark">Korbitsch.at</h1>
         </div>
     </transition>
