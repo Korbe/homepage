@@ -10,6 +10,10 @@
 
     <Container class="mt-16">
 
+      <Service />
+
+      <Webapps />
+
       <SkillsBadge />
 
       <Testimonial />
@@ -32,4 +36,6 @@ import Testimonial from "./Partials/Testimonial.vue";
 import Cta from "./Partials/Cta.vue";
 import Welcome from "./Partials/Welcome.vue";
 import Faqs from "./Partials/Faqs.vue";
+import Service from "./Partials/Service.vue";
+import Webapps from "./Partials/Webapps.vue";
 </script>
