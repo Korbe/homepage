@@ -6,7 +6,7 @@
                 Maßgeschneiderte Webapps - flexibel, modern und genau auf dich zugeschnitten.</h2>
             <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
                 Als Software Ingenieur entwickle ich moderne Webanwendungen - intuitiv, flexibel und technisch auf dem
-                neuesten Stand. Ob einfache Landingpage oder komplexe Unternehmenslösung: Ich setze deine Ideen um.
+                neuesten Stand. Ob einfache Landingpage alias Website oder komplexe Unternehmenslösung: Ich setze deine Ideen um.
             </p>
             <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
                 Webapps funktionieren wie klassische Apps, laufen direkt im Browser und sind auf allen Geräten nutzbar -

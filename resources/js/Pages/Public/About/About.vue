@@ -11,7 +11,7 @@
                 <div class="lg:order-first lg:row-span-2">
                     <h1
                         class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
-                        Ich bin Ing. Lukas Korbitsch. Aus Villach und bringe Code zum Leben.
+                        Ich bin Ing. Lukas Korbitsch aus Villach und bringe Code zum Leben.
                     </h1>
                     <div class="mt-6 space-y-7 text-lg text-brand-text dark:text-brand-text-dark">
                         <p>
@@ -29,7 +29,7 @@
                             Leben zu erwecken und kreative Lösungen zu finden.
                         </p>
                         <p>
-                            Beruflich bin ich Vollzeit Angestellter bei der Firma <a class="underline" target="_blank"
+                            Beruflich bin ich Angestellter bei der Firma <a class="underline" target="_blank"
                                 href="https://software-cube.at"><b>SoftwareCUBE</b></a> und
                             arbeite für <a class="underline" target="_blank"
                                 href="https://www.infineon.com/cms/de/"><b>Infineon Technologies</b></a> an
@@ -47,8 +47,7 @@
                             In meiner Freizeit widme ich mich gerne meinen anderen Leidenschaften: <b>Programmieren</b>
                             (wenig
                             überraschend 😉), <b>Pflanzen</b>, <b>Computerspielen</b> und <b>Outdoor-Aktivitäten</b>.
-                            Ich liebe es, Pflanzen
-                            über die Zeit wachsen zu sehen – vom perfekten Substrat-Mix bis zum richtigen Pflegeschnitt
+                            Ich liebe es, Pflanzen wachsen zu sehen - vom perfekten Substrat-Mix bis zum richtigen Pflegeschnitt
                             übernehme ich alles selbst. Beim <b>Gaming</b> kann ich in spannende Welten eintauchen, mich
                             herausfordern und einfach abschalten.
                         </p>
@@ -56,7 +55,7 @@
                             Zum Ausgleich zum vielen Sitzen im Büro und beim Programmieren gehe ich regelmäßig ins
                             <b>Fitnessstudio</b>. Außerdem bin ich gerne <b>draußen in der Natur</b>, sei es beim
                             <b>Camping in meiner
-                                Hängematte</b>, bei Spaziergängen oder einfach, um frische Luft zu schnappen. Besonders
+                                Hängematte</b> oder um einfach bei Spaziergängen frische Luft zu schnappen. Besonders
                             wichtig
                             sind mir auch <b>Treffen mit Freunden</b>, denn gute Gespräche und gemeinsame Erlebnisse
                             gehören für mich genauso zum Leben dazu.
@@ -73,8 +72,8 @@
                         <blockquote class="text-center italic font-bold">
                             <p>Wenn ich etwas noch nicht kann, dann lerne ich es - in
                                 Zeiten von Google und ChatGPT gibt es kaum ein Problem, das sich nicht lösen lässt. Wer
-                                nicht lernt, bleibt stehen, und wer
-                                stehen bleibt, hört auf,
+                                nicht lernt bleibt stehen, und wer
+                                stehen bleibt hört auf
                                 gut zu sein.
                             </p>
                         </blockquote>
