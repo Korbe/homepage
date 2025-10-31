@@ -9,9 +9,11 @@
                             <div
                                 class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-brand-headline dark:text-zinc-200">
                                 <Link class="hover:text-brand" href="/">Home</Link>
-                                <Link class="hover:text-brand" href="/about">About</Link>
+                                <Link class="hover:text-brand" href="/homevisits">PC Probleme?</Link>
+                                <Link class="hover:text-brand" href="/webapps">WebApps</Link>
                                 <Link class="hover:text-brand" href="/projects">Projects</Link>
                                 <Link class="hover:text-brand" href="/uses">Setup</Link>
+                                <Link class="hover:text-brand" href="/about">About</Link>
                                 <Link class="hover:text-brand" href="/impressum">Impressum</Link>
                                 <Link class="hover:text-brand" href="/cookies">Cookies</Link>
                             </div>

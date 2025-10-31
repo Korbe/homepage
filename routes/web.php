@@ -7,6 +7,18 @@ Route::get('/', function () {
     return Inertia::render('Public/Home/Home');
 })->name("public.home");
 
+Route::get('/homevisits', function () {
+    return Inertia::render('Public/HomeVisits/HomeVisits');
+})->name("public.homevisits");
+
+Route::get('/webapps', function () {
+    return Inertia::render('Public/Webapps/Webapps');
+})->name("public.webapps");
+
+
+
+
+
 Route::get('/about', function () {
     return Inertia::render('Public/About/About');
 })->name("public.about");

@@ -1,6 +1,7 @@
 <template>
     <div class="max-w-4xl py-12">
-        <h2 class="text-4xl font-semibold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark">Auf Fragen
+        <h2 class="text-4xl font-semibold tracking-tight text-brand-headline sm:text-3xl dark:text-brand-headline-dark">
+            Auf Fragen
             gibt es Antworten</h2>
         <dl class="my-12 divide-y divide-gray-900/10">
             <Disclosure as="div" v-for="(faq, index) in faqs" :key="faq.question" class="py-6 first:pt-0 last:pb-0"
@@ -28,37 +29,32 @@ import { MinusIcon, PlusIcon } from '@heroicons/vue/24/outline'
 
 const faqs = [
     {
-        question: "Welche Art von Software entwickelst du?",
-        answer: "Ich entwickle maßgeschneiderte Webapps, die wie klassische Apps funktionieren, aber die Flexibilität und die Vorteile von Websites bieten. Jedes Projekt wird individuell auf die Bedürfnisse und Wünsche des Nutzers abgestimmt.",
+        question: "Wann sind Termine möglich?",
+        answer: "In der Regel vergebe ich Termine ab 15 Uhr. In Ausnahmefällen sind auch frühere Termine möglich - vor allem bei dringenden Problemen oder wenn es zeitlich passt."
     },
     {
-        question: "Was ist der Unterschied zwischen einer Webapp und einer klassischen App?",
-        answer: "Eine Webapp verhält sich wie eine native App, läuft aber im Webbrowser und benötigt keine Installation. Sie bietet alle Vorteile von Webseiten, wie einfache Updates, plattformübergreifende Nutzung und keine App-Store-Beschränkungen.",
+        question: "Welche Geräte betreuen Sie?",
+        answer: "Ich helfe bei PCs, Laptops, Smartphones und Tablets aller Marken - sowohl bei Softwareproblemen als auch bei der Einrichtung neuer Geräte."
     },
     {
-        question: "Wie lange dauert es, eine Webapp zu entwickeln?",
-        answer: "Die Entwicklungszeit hängt von der Komplexität des Projekts ab und variiert zwischen einigen Wochen und Monaten. Da ich derzeit Vollzeit angestellt bin, kann es etwas länger dauern. Dafür bleibt der Preis jedoch fair und ohne hohe Agenturgebühren.",
+        question: "Kannst du mir bei der Auswahl eines neuen Smartphones oder Gaming Setups helfen?",
+        answer: "Ja, ich helfe dir gerne bei der Auswahl von Smartphones, Laptops oder anderen Geräten, die perfekt auf deine Bedürfnisse und dein Budget abgestimmt sind. Ich unterstütze dich auch beim Zusammenstellen und Aufbau eines Gaming-PCs sowie bei der Einrichtung des idealen Setups für dein Zuhause oder Büro.",
     },
-    {
-        question: "Ich habe technische Probleme mit meinem PC oder Smartphone. Kannst du mir helfen?",
-        answer: "Ja, ich biete technische Unterstützung bei einer Vielzahl von Geräten an, von PCs über Smartphones bis hin zu Druckern. Wenn du technische Fragen hast oder Unterstützung bei der Fehlerbehebung benötigst, stehe ich gerne zur Verfügung.",
-    },
-    {
-        question: "Was kostet es, dich für technischen Support zu engagieren?",
-        answer: "Die Preise variieren je nach Art und Umfang der Anfrage. Kontaktiere mich einfach direkt für ein maßgeschneidertes Angebot. Ich verlange einen kleinen Obulus - deutlich günstiger als ein Schlüsseldienst und genauso schnell.",
-    },
-
     {
         question: "Hast du Erfahrung mit der Automatisierung von Prozessen?",
-        answer: "Ja, ich arbeite aktuell an Projekten in der Hochautomatisierung und helfe gerne dabei, Prozesse zu optimieren. Zudem kann ich dir maßgeschneiderte Tools entwickeln, die dir bei der Automatisierung von alltäglichen Aufgaben helfen.",
+        answer: "Ja, ich arbeite aktuell an Projekten in der Hochautomatisierung von Infineon und helfe gerne dabei, Prozesse zu optimieren. Zudem kann ich dir maßgeschneiderte Tools entwickeln, die dir bei der Automatisierung von alltäglichen Aufgaben helfen.",
     },
     {
         question: "Bietest du auch Workshops oder Schulungen an?",
         answer: "Derzeit biete ich keine regulären Workshops an, aber wenn du Interesse an einem Vortrag oder einer Schulung hast, lass es mich wissen! Ich bin auch offen für Nachhilfe im Programmieren und helfe dir gerne weiter.",
     },
     {
-        question: "Kannst du mir bei der Auswahl eines neuen Smartphones oder Gaming Setups helfen?",
-        answer: "Ja, ich helfe dir gerne bei der Auswahl von Smartphones, Laptops oder anderen Geräten, die perfekt auf deine Bedürfnisse und dein Budget abgestimmt sind. Ich unterstütze dich auch beim Zusammenstellen und Aufbau eines Gaming-PCs sowie bei der Einrichtung des idealen Setups für dein Zuhause oder Büro.",
+        question: "Entwickeln Sie auch Websiten oder WebApps?",
+        answer: "Ja, ich entwickle moderne Webanwendungen - von einfachen Websites bis hin zu komplexen WebApps, die auf allen Geräten funktionieren und individuell an Ihre Anforderungen angepasst werden."
     },
+    {
+        question: "Wie läuft die Erstellung einer WebApp ab?",
+        answer: "Ich bespreche zuerst Ihre Ideen und Anforderungen, entwerfe ein Konzept und setze anschließend Design und Funktion um. Sie erhalten regelmäßig Einblicke in den Fortschritt, bis das fertige Produkt steht."
+    }
 ]
 </script>

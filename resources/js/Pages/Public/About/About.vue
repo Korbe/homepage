@@ -82,7 +82,7 @@
                 <div class="lg:pl-20">
                     <ul role="list">
                         <SocialLinks />
-                        <ContactLinks />
+                        <ContactLinksVertical />
                         <VButton class="w-full mt-5" @click="downloadVCF">Kontakt speichern</VButton>
                         <VButton class="w-full mt-5" @click="isOpen = true">Download CV</VButton>
                         <EmailCVModal v-if="isOpen" :isOpen="isOpen" @update:isOpen="isOpen = $event" />
@@ -96,11 +96,12 @@
 import Container from '@/Components/Container.vue';
 import PublicLayout from '@/Layouts/Public/PublicLayout.vue';
 import SocialLinks from './Partials/SocialLinks.vue';
-import ContactLinks from './Partials/ContactLinks.vue';
+import ContactLinksVertical from '../../../Components/ContactLinksVertical.vue';
 import VButton from '@/Components/VButton.vue';
 import EmailCVModal from './Partials/EmailCVModal.vue';
 import { ref } from 'vue';
 import { downloadVCF } from '@/vcard';
+import Photos from '../Home/Partials/Photos.vue';
 
 
 const isOpen = ref(false);
