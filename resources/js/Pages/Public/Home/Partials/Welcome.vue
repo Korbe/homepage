@@ -4,7 +4,7 @@
 
     <div class="max-w-2xl relative">
         <h1 class="text-4xl font-bold tracking-tigh sm:text-5xl text-brand-headline dark:text-brand-headline-dark">
-            Korbitsch<br>IT-Dienstleistungen
+            Ing. Korbitsch<br>IT-Dienstleistungen
         </h1>
         <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
             Hallo, ich bin Ing. Lukas Korbitsch. Wenn dein PC, Laptop oder Smartphone nicht mehr so will wie du - kein
