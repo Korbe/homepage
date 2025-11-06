@@ -40,16 +40,12 @@ const faqs = [
         answer: "Nein, ich repariere keine Hardware und biete keine Datenrettung von defekten Festplatten an. Mein Schwerpunkt liegt auf Softwareproblemen, Systemeinrichtungen, Fehlerbehebungen und Beratung."
     },
     {
-        question: "Was kostet ein Hausbesuch?",
-        answer: "Hausbesuche kosten in der Regel 120 € pro Stunde, können aber - je nach Aufwand und Problem - mehr betragen. Sie erhalten immer eine faire und transparente Einschätzung im Voraus."
-    },
-    {
         question: "Wie schnell bekomme ich einen Termin?",
         answer: "In der Regel sehr schnell. Wenn Sie mich telefonisch einmal nicht erreichen, rufe ich so bald wie möglich zurück. Notfälle werden nach Möglichkeit bevorzugt behandelt."
     },
     {
         question: "Muss ich meine Geräte vorbeibringen?",
-        answer: "Nein – genau das ist der Vorteil meines Services. Ich komme direkt zu Ihnen nach Hause, sodass Sie nichts abbauen oder transportieren müssen. Sollte ein Problem vor Ort nicht lösbar sein, finden wir gemeinsam eine passende Lösung."
+        answer: "Nein - genau das ist der Vorteil meines Services. Ich komme direkt zu Ihnen nach Hause, sodass Sie nichts abbauen oder transportieren müssen. Sollte ein Problem vor Ort nicht lösbar sein, finden wir gemeinsam eine passende Lösung."
     }
 ]
 </script>
