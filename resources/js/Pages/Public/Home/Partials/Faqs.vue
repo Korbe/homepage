@@ -29,32 +29,32 @@ import { MinusIcon, PlusIcon } from '@heroicons/vue/24/outline'
 
 const faqs = [
     {
-        question: "Wann sind Termine möglich?",
-        answer: "In der Regel vergebe ich Termine ab 15 Uhr. In Ausnahmefällen sind auch frühere Termine möglich - vor allem bei dringenden Problemen oder wenn es zeitlich passt."
+        "question": "Wann sind Termine möglich?",
+        "answer": "In der Regel vergebe ich Termine ab 15 Uhr. In Ausnahmefällen sind auch frühere Termine möglich - vor allem bei dringenden Problemen oder wenn es zeitlich passt."
     },
     {
-        question: "Welche Geräte betreuen Sie?",
-        answer: "Ich helfe bei PCs, Laptops, Smartphones und Tablets aller Marken - sowohl bei Softwareproblemen als auch bei der Einrichtung neuer Geräte."
+        "question": "Welche Geräte betreust du?",
+        "answer": "Ich helfe dir bei PCs, Laptops, Smartphones und Tablets aller Marken - sowohl bei Softwareproblemen als auch bei der Einrichtung neuer Geräte."
     },
     {
-        question: "Kannst du mir bei der Auswahl eines neuen Smartphones oder Gaming Setups helfen?",
-        answer: "Ja, ich helfe dir gerne bei der Auswahl von Smartphones, Laptops oder anderen Geräten, die perfekt auf deine Bedürfnisse und dein Budget abgestimmt sind. Ich unterstütze dich auch beim Zusammenstellen und Aufbau eines Gaming-PCs sowie bei der Einrichtung des idealen Setups für dein Zuhause oder Büro.",
+        "question": "Kannst du mir bei der Auswahl eines neuen Smartphones oder Gaming Setups helfen?",
+        "answer": "Ja, ich helfe dir gerne bei der Auswahl von Smartphones, Laptops oder anderen Geräten, die perfekt auf deine Bedürfnisse und dein Budget abgestimmt sind. Ich unterstütze dich auch beim Zusammenstellen und Aufbau eines Gaming-PCs sowie bei der Einrichtung des idealen Setups für dein Zuhause oder Büro."
     },
     {
-        question: "Hast du Erfahrung mit der Automatisierung von Prozessen?",
-        answer: "Ja, ich arbeite aktuell an Projekten in der Hochautomatisierung von Infineon und helfe gerne dabei, Prozesse zu optimieren. Zudem kann ich dir maßgeschneiderte Tools entwickeln, die dir bei der Automatisierung von alltäglichen Aufgaben helfen.",
+        "question": "Hast du Erfahrung mit der Automatisierung von Prozessen?",
+        "answer": "Ja, ich arbeite aktuell an Projekten in der Hochautomatisierung von Infineon und helfe gerne dabei, Prozesse zu optimieren. Zudem kann ich dir maßgeschneiderte Tools entwickeln, die dir bei der Automatisierung von alltäglichen Aufgaben helfen."
     },
     {
-        question: "Bietest du auch Workshops oder Schulungen an?",
-        answer: "Derzeit biete ich keine regulären Workshops an, aber wenn du Interesse an einem Vortrag oder einer Schulung hast, lass es mich wissen! Ich bin auch offen für Nachhilfe im Programmieren und helfe dir gerne weiter.",
+        "question": "Bietest du auch Workshops oder Schulungen an?",
+        "answer": "Derzeit biete ich keine regulären Workshops an, aber wenn du Interesse an einem Vortrag oder einer Schulung hast, lass es mich wissen! Ich bin auch offen für Nachhilfe im Programmieren und helfe dir gerne weiter."
     },
     {
-        question: "Entwickeln Sie auch Websiten oder WebApps?",
-        answer: "Ja, ich entwickle moderne Webanwendungen - von einfachen Websites bis hin zu komplexen WebApps, die auf allen Geräten funktionieren und individuell an Ihre Anforderungen angepasst werden."
+        "question": "Entwickelst du auch Websiten oder WebApps?",
+        "answer": "Ja, ich entwickle moderne Webanwendungen - von einfachen Websites bis hin zu komplexen WebApps, die auf allen Geräten funktionieren und individuell an deine Anforderungen angepasst werden."
     },
     {
-        question: "Wie läuft die Erstellung einer WebApp ab?",
-        answer: "Ich bespreche zuerst Ihre Ideen und Anforderungen, entwerfe ein Konzept und setze anschließend Design und Funktion um. Sie erhalten regelmäßig Einblicke in den Fortschritt, bis das fertige Produkt steht."
-    }
+        "question": "Was kostet ein Hausbesuch?",
+        "answer": "Der Preis beträgt 90€ pro angefangene Stunde für die Arbeitszeit. Zusätzlich fällt eine Pauschale für die Anfahrt an: 10€ innerhalb von Villach Stadt und 20€ in Villach Land. Du bezahlst also nur die tatsächliche Arbeitszeit plus die einmalige Anfahrtspauschale."
+    },
 ]
 </script>
