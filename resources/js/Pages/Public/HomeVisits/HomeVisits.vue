@@ -1,5 +1,5 @@
 <template>
-    <PublicLayout title="Über mich">
+    <PublicLayout title="PC Probleme?">
         <Container class="mt-16 sm:mt-32">
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-4">
