@@ -70,7 +70,7 @@ const projects = [
             { href: "https://korbitsch.at", label: "korbitsch.at" },
             { href: "https://github.com/Korbe/homepage", label: "GitHub" },
         ],
-        logo: "/images/me.jpg",
+        logo: "/images/me-new.jpg",
         icon: null,
         techs: [
             { name: "Laraval", icon: "fa-laravel", color: "text-red-500" },

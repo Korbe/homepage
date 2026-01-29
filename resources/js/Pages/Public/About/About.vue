@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
                 <div class="lg:pl-4">
                     <div class="max-w-xs px-2.5 lg:max-w-none">
-                        <img src="/images/me.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
+                        <img src="/images/me-new.jpg" alt="" sizes="(min-width: 1024px) 32rem, 20rem"
                             class="aspect-square rotate-3 rounded-2xl object-cover" />
                     </div>
                 </div>

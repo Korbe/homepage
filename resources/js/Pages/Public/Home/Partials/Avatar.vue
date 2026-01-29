@@ -6,7 +6,7 @@
     v-bind="props"
   >
     <img
-      src="/images/me.jpg"
+      src="/images/me-new.jpg"
       alt=""
       :sizes="large ? '4rem' : '2.25rem'"
       :class="[
