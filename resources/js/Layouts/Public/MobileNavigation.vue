@@ -15,11 +15,14 @@
           <XMarkIcon class="h-6 w-6 text-zinc-500 dark:text-brand-text-dark" />
         </PopoverButton>
         <h2 class="text-sm font-medium text-brand-text dark:text-brand-text-dark">
-          Navigation
+          <img src="/images/logo-big.svg" alt="Logo" class="h-24 w-auto block dark:hidden" />
+          <!-- Dark Mode -->
+          <img src="/images/logo-big-invert.svg" alt="Logo" class="h-24 w-auto hidden dark:block" />
         </h2>
       </div>
       <nav class="mt-6">
-        <ul class="-my-2 divide-y divide-zinc-100 text-base text-brand-headline dark:divide-zinc-100/5 dark:text-zinc-300">
+        <ul
+          class="-my-2 divide-y divide-zinc-100 text-base text-brand-headline dark:divide-zinc-100/5 dark:text-zinc-300">
           <MobileNavItem v-for="route in publicRoutes" :key="route.path" :href="route.path">
             {{ route.name }}
           </MobileNavItem>

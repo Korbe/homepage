@@ -7,9 +7,9 @@
             Ing. Korbitsch<br>IT-Dienstleistungen
         </h1>
         <p class="my-6 text-lg text-brand-text dark:text-brand-text-dark">
-            Hallo, ich bin Ing. Lukas Korbitsch. Wenn dein PC, Laptop oder Smartphone nicht mehr so will wie du - kein
+            Hallo, ich bin Ing. Lukas Korbitsch. Wenn Ihr PC, Laptop oder Smartphone nicht mehr so will wie Sie - kein
             Problem!
-            Ich komme zu dir nach Hause und kümmere mich persönlich darum, dass wieder alles läuft.
+            Ich komme zu Ihnen nach Hause und kümmere mich persönlich darum, dass wieder alles läuft.
             Schnell, verständlich erklärt und ohne Fachchinesisch.
         </p>
     </div>

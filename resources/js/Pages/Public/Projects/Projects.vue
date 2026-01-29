@@ -81,7 +81,7 @@ const projects = [
 
     {
         name: "Sort-o-Matic",
-        description: "Sort-O-Matic ist ein Python-Skript, das Bilder basierend auf Dateinameninformationen, EXIF-Daten und Dateieigenschaften in Jahres- und Monatsordner organisiert.",
+        description: "Sort-O-Matic ist ein Python-Skript, dass Bilder basierend auf Dateinameninformationen, EXIF-Daten und Dateieigenschaften in Jahres- und Monatsordner organisiert.",
         links: [
             { href: "https://github.com/Korbe/sort-o-matic", label: "GitHub" },
         ],

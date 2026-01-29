@@ -19,7 +19,7 @@
                         Auch bei Neuanschaffungen oder PC-Zusammenstellungen berate ich Sie gern.
                         Und das Beste: Keine Lösung, keine Kosten.
                     </p>
-                    <button class="cursor-pointer bg-zinc-900 text-white px-4 py-2 rounded-3xl hover:bg-zinc-700 transition">
+                    <button class="cursor-pointer bg-brand text-white px-4 py-2 rounded-3xl hover:bg-zinc-700 transition">
                         Mehr erfahren
                     </button>
                 </div>
@@ -38,7 +38,7 @@
                         Idee bis
                         zum fertigen Produkt mit Fokus auf Design, Performance und Benutzerfreundlichkeit.
                     </p>
-                    <button class="cursor-pointer bg-zinc-900 text-white px-4 py-2 rounded-3xl hover:bg-zinc-700 transition">
+                    <button class="cursor-pointer bg-brand text-white px-4 py-2 rounded-3xl hover:bg-zinc-700 transition">
                         Mehr erfahren
                     </button>
                 </div>

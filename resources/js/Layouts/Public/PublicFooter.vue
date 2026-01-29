@@ -17,7 +17,8 @@
                                 <Link class="hover:text-brand" href="/impressum">Impressum</Link>
                                 <Link class="hover:text-brand" href="/cookies">Datenschutzerklärung</Link>
                             </div>
-                            <p class="text-sm text-zinc-400 dark:text-zinc-500">
+                            <p class="flex items-center text-sm text-zinc-400 dark:text-zinc-500">
+                                <img src="/images/logo.png" alt="Logo" class="inline h-18 w-auto mb-1 mr-2" />
                                 &copy; {{ new Date().getFullYear() }} Ing. Lukas Korbitsch. All rights
                                 reserved.
                             </p>

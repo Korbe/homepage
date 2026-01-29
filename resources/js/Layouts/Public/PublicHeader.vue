@@ -7,14 +7,20 @@
             <Container class="top-(--header-top,--spacing(6)) w-full" style="position:var(--header-inner-position)">
                 <div class="relative flex gap-4">
                     <div class="flex flex-1">
-                        LOGO
+                        <Link href="/" class="flex items-center pointer-events-auto">
+                        <!-- Light Mode -->
+                        <img src="/images/logo-big.svg" alt="Logo" class="h-20 w-auto block dark:hidden" />
+
+                        <!-- Dark Mode -->
+                        <img src="/images/logo-big-invert.svg" alt="Logo" class="h-20 w-auto hidden dark:block" />
+                        </Link>
                     </div>
-                    <div class="flex flex-1 justify-end md:justify-center">
-                        <MobileNavigation class="pointer-events-auto md:hidden" />
+                    <div class="flex flex-1 justify-end md:justify-center mt-4">
+                        <MobileNavigation class="pointer-events-auto md:hidden " />
                         <DesktopNavigation class="pointer-events-auto hidden md:block" />
                     </div>
-                    <div class="flex justify-end md:flex-1">
-                        <div class="pointer-events-auto">
+                    <div class="flex justify-end md:flex-1 mt-4">
+                        <div class="pointer-events-auto ">
                             <ThemeToggle />
                         </div>
                     </div>

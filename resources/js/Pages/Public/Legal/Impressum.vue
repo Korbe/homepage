@@ -2,6 +2,7 @@
     <PublicLayout title="Impressum">
         <Container class="mt-16 sm:mt-32">
             <header>
+                <img src="/images/logo.png" alt="Logo" class="h-24 w-auto mb-6" />
                 <h1
                     class="text-4xl font-bold tracking-tight text-brand-headline sm:text-5xl dark:text-brand-headline-dark">
                     Impressum

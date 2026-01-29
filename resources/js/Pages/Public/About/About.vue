@@ -46,10 +46,8 @@
                         <p>
                             In meiner Freizeit widme ich mich gerne meinen anderen Leidenschaften: <b>Programmieren</b>
                             (wenig
-                            überraschend 😉), <b>Pflanzen</b>, <b>Computerspielen</b> und <b>Outdoor-Aktivitäten</b>.
-                            Ich liebe es, Pflanzen wachsen zu sehen - vom perfekten Substrat-Mix bis zum richtigen Pflegeschnitt
-                            übernehme ich alles selbst. Beim <b>Gaming</b> kann ich in spannende Welten eintauchen, mich
-                            herausfordern und einfach abschalten.
+                            überraschend 😉), <b>Pflanzen</b>, <b>Computerspielen</b>, <b>Outdoor-Aktivitäten</b>. 
+                            Und mein Hund kommt auch nicht zu kurz.
                         </p>
                         <p>
                             Zum Ausgleich zum vielen Sitzen im Büro und beim Programmieren gehe ich regelmäßig ins
@@ -63,8 +61,8 @@
                         <p>
                             Ein besonders wichtiger Teil meines Lebens ist meine <b>wundervolle Freundin</b> die mich in allem,
                             was ich tue, unterstützt. Sie gibt mir Rückhalt, motiviert mich und macht das Leben noch
-                            schöner. Gemeinsam meistern wir Herausforderungen, genießen unsere Zeit und inspirieren uns
-                            gegenseitig.
+                            schöner.
+                            
                         </p>
 
                         <div class="border w-10 my-10 mx-auto border-brand-text dark:border-brand-text-dark"></div>
